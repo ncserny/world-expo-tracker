@@ -10,7 +10,7 @@ export function usePavilions() {
     const fetchPavilions = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/pavilions-sample.json');
+        const response = await fetch('/pavilions.json');
         if (!response.ok) {
           throw new Error('Failed to fetch pavilions data');
         }
