@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
-import { pavilions as initialPavilions } from '../data/pavilions';
 import { Pavilion, PavilionCategory } from '../types/pavilion';
 import { useLocalStorage } from '../hooks/useLocalStorage';
+import { usePavilions } from '../hooks/usePavilions';
 import { PavilionCard } from '../components/PavilionCard';
 import { StatsCard } from '../components/StatsCard';
 import { FilterControls } from '../components/FilterControls';
@@ -9,6 +9,7 @@ import { useToast } from '../hooks/use-toast';
 
 const Index = () => {
   const { toast } = useToast();
+  const { pavilions: pavilionData, loading, error } = usePavilions();
   const [visitedPavilions, setVisitedPavilions] = useLocalStorage<string[]>('visited-pavilions', []);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategories, setSelectedCategories] = useState<PavilionCategory[]>([]);
@@ -16,11 +17,11 @@ const Index = () => {
 
   // Merge pavilions with visited status from localStorage
   const pavilions = useMemo(() => {
-    return initialPavilions.map(pavilion => ({
+    return pavilionData.map(pavilion => ({
       ...pavilion,
       visited: visitedPavilions.includes(pavilion.id)
     }));
-  }, [visitedPavilions]);
+  }, [pavilionData, visitedPavilions]);
 
   // Filter pavilions based on search and filters
   const filteredPavilions = useMemo(() => {
@@ -90,6 +91,34 @@ const Index = () => {
     setSelectedCategories([]);
     setVisitedFilter('all');
   };
+
+  // Handle loading and error states
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-primary/5">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+          <p className="text-lg text-muted-foreground">Loading pavilions...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-primary/5">
+        <div className="text-center">
+          <p className="text-lg text-destructive mb-4">Error loading pavilions: {error}</p>
+          <button 
+            onClick={() => window.location.reload()}
+            className="px-4 py-2 bg-primary text-primary-foreground rounded hover:bg-primary/90"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-primary/5">
