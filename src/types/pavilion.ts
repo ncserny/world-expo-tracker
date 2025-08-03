@@ -6,6 +6,7 @@ export interface Pavilion {
   reserve?: string;
   category: 'Country' | 'Signature' | 'Private Sector' | 'Other';
   visited: boolean;
+  countryCode?: string; // ISO 3166-1 alpha-2 country code for flags
 }
 
 export type PavilionCategory = Pavilion['category'];

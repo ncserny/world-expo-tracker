@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "pavilionCode": "S",
+    "pavilion": "The Holy See",
+    "category": "Country",
+    "visited": false,
+    "countryCode": "va"
+  },
+  {
+    "id": "2",
+    "pavilionCode": "S",
+    "pavilion": "Kingdom of the Netherlands",
+    "category": "Country",
+    "visited": false,
+    "countryCode": "nl"
+  },
+  {
+    "id": "3",
+    "pavilionCode": "S",
+    "pavilion": "Sultanate of Oman",
+    "category": "Country",
+    "visited": false,
+    "countryCode": "om"
+  },
+  {
+    "id": "4",
+    "pavilionCode": "C",
+    "pavilion": "Kingdom of Saudi Arabia",
+    "category": "Country",
+    "visited": true,
+    "countryCode": "sa"
+  },
+  {
+    "id": "5",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Singapore",
+    "category": "Country",
+    "visited": true,
+    "countryCode": "sg"
+  },
+  {
+    "id": "6",
+    "pavilionCode": "C",
+    "pavilion": "Kingdom of Thailand",
+    "category": "Country",
+    "visited": true,
+    "countryCode": "th"
+  },
+  {
+    "id": "7",
+    "pavilionCode": "E",
+    "pavilion": "Japan",
+    "category": "Country",
+    "visited": true,
+    "reserve": "01.08 18:30",
+    "countryCode": "jp"
+  },
+  {
+    "id": "8",
+    "pavilionCode": "X",
+    "pavilion": "Better Co-Being",
+    "category": "Signature",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "9",
+    "pavilionCode": "X",
+    "pavilion": "Future of Life",
+    "category": "Signature",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "10",
+    "pavilionCode": "X",
+    "pavilion": "Playground of Life: Jellyfish",
+    "category": "Signature",
+    "visited": false
+  },
+  {
+    "id": "11",
+    "pavilionCode": "X",
+    "pavilion": "Null²",
+    "category": "Signature",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "12",
+    "pavilionCode": "C",
+    "pavilion": "Federal Republic of Germany",
+    "category": "Country",
+    "visited": false,
+    "countryCode": "de"
+  },
+  {
+    "id": "13",
+    "pavilionCode": "P",
+    "pavilion": "Portugal",
+    "category": "Country",
+    "visited": false,
+    "countryCode": "pt"
+  },
+  {
+    "id": "14",
+    "pavilionCode": "P",
+    "pavilion": "United Arab Emirates",
+    "category": "Country",
+    "visited": false,
+    "countryCode": "ae"
+  },
+  {
+    "id": "15",
+    "pavilionCode": "E",
+    "pavilion": "Electric Power Eggs of Possibilities",
+    "category": "Private Sector",
+    "visited": false,
+    "reserve": "needed"
+  }
+]
