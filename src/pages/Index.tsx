@@ -129,7 +129,7 @@ const Index = () => {
             World Expo 2025 Osaka
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Track your journey through all the amazing pavilions at World Expo 2025 in Osaka, Japan
+            Track your journey through all the amazing pavilions at World Expo in Osaka, Japan
           </p>
         </div>
 

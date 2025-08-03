@@ -29,10 +29,8 @@ export const FilterControls = ({
 
   return (
     <div className="space-y-4 p-4 bg-card border rounded-lg mb-6">
-      <div className="flex items-center gap-2 text-sm font-medium">
-        <Filter className="w-4 h-4" />
-        Filters
-        {hasActiveFilters && (
+      {hasActiveFilters && (
+        <div className="flex justify-end">
           <Button 
             variant="ghost" 
             size="sm" 
@@ -42,8 +40,8 @@ export const FilterControls = ({
             <X className="w-3 h-3 mr-1" />
             Clear all
           </Button>
-        )}
-      </div>
+        </div>
+      )}
       
       <div className="relative">
         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-muted-foreground" />
