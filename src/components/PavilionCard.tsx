@@ -13,13 +13,13 @@ interface PavilionCardProps {
 const getCategoryColor = (category: PavilionCategory) => {
   switch (category) {
     case 'Country':
-      return 'bg-expo-country border-blue-200';
+      return 'bg-blue-50 border-blue-200';
     case 'Signature':
-      return 'bg-expo-signature border-purple-200';
+      return 'bg-purple-50 border-purple-200';
     case 'Private Sector':
-      return 'bg-expo-private border-green-200';
+      return 'bg-green-50 border-green-200';
     case 'Other':
-      return 'bg-expo-other border-orange-200';
+      return 'bg-orange-50 border-orange-200';
     default:
       return 'bg-muted border-border';
   }
@@ -75,29 +75,31 @@ export const PavilionCard = ({ pavilion, onToggleVisited }: PavilionCardProps) =
           />
           
           <div className="flex-1 space-y-2">
-            <div className="flex items-start justify-between gap-2">
-              <div className="flex items-start gap-2 flex-1">
-                {pavilion.pavilionCode && (
-                  <div className={cn(
-                    'flex-shrink-0 w-6 h-6 rounded text-xs font-bold flex items-center justify-center mt-0.5',
-                    getPavilionCodeColor(pavilion.pavilionCode)
-                  )}>
-                    {pavilion.pavilionCode}
-                  </div>
-                )}
-                <h3 className={cn(
-                  'font-semibold text-sm leading-tight transition-all flex-1',
-                  pavilion.visited ? 'line-through text-muted-foreground' : 'text-foreground'
+            <div className="flex items-start gap-2">
+              {pavilion.pavilionCode && (
+                <div className={cn(
+                  'flex-shrink-0 w-6 h-6 rounded text-xs font-bold flex items-center justify-center mt-0.5',
+                  getPavilionCodeColor(pavilion.pavilionCode)
                 )}>
-                  {pavilion.pavilion}
-                </h3>
+                  {pavilion.pavilionCode}
+                </div>
+              )}
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-1">
+                  <h3 className={cn(
+                    'font-semibold text-sm leading-tight transition-all',
+                    pavilion.visited ? 'line-through text-muted-foreground' : 'text-foreground'
+                  )}>
+                    {pavilion.pavilion}
+                  </h3>
+                  <Badge 
+                    variant="secondary" 
+                    className={cn('text-xs font-medium flex-shrink-0', getCategoryBadgeColor(pavilion.category))}
+                  >
+                    {pavilion.category}
+                  </Badge>
+                </div>
               </div>
-              <Badge 
-                variant="secondary" 
-                className={cn('text-xs font-medium flex-shrink-0', getCategoryBadgeColor(pavilion.category))}
-              >
-                {pavilion.category}
-              </Badge>
             </div>
             
             {(pavilion.location || pavilion.reserve) && (
