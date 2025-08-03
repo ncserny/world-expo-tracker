@@ -81,7 +81,7 @@ export const PavilionCard = ({ pavilion, onToggleVisited }: PavilionCardProps) =
           <div className="flex-1 space-y-2">
             <div className="flex items-start gap-2">
               {pavilion.category === 'Country' && pavilion.countryCode ? (
-                <div className="flex-shrink-0 flex items-center justify-center mt-1">
+                <div className="flex-shrink-0 flex items-center justify-center mt-0.5">
                   <span className={`fi fi-${pavilion.countryCode.toLowerCase()} w-5 h-4 rounded shadow-sm`}></span>
                 </div>
               ) : pavilion.pavilionCode ? (
