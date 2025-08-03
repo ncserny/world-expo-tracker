@@ -40,6 +40,25 @@ const getCategoryBadgeColor = (category: PavilionCategory) => {
   }
 };
 
+const getPavilionCodeColor = (code?: string) => {
+  switch (code) {
+    case 'S':
+      return 'bg-orange-500 text-white';
+    case 'C':
+      return 'bg-cyan-500 text-white';
+    case 'E':
+      return 'bg-red-500 text-white';
+    case 'P':
+      return 'bg-green-500 text-white';
+    case 'W':
+      return 'bg-blue-500 text-white';
+    case 'X':
+      return 'bg-purple-500 text-white';
+    default:
+      return 'bg-gray-500 text-white';
+  }
+};
+
 export const PavilionCard = ({ pavilion, onToggleVisited }: PavilionCardProps) => {
   return (
     <Card className={cn(
@@ -59,7 +78,10 @@ export const PavilionCard = ({ pavilion, onToggleVisited }: PavilionCardProps) =
             <div className="flex items-start justify-between gap-2">
               <div className="flex items-start gap-2 flex-1">
                 {pavilion.pavilionCode && (
-                  <div className="flex-shrink-0 w-6 h-6 bg-primary text-primary-foreground rounded text-xs font-bold flex items-center justify-center mt-0.5">
+                  <div className={cn(
+                    'flex-shrink-0 w-6 h-6 rounded text-xs font-bold flex items-center justify-center mt-0.5',
+                    getPavilionCodeColor(pavilion.pavilionCode)
+                  )}>
                     {pavilion.pavilionCode}
                   </div>
                 )}
