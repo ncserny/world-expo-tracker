@@ -1572,5 +1572,65 @@
     "category": "Other",
     "visited": false,
     "reserve": "needed"
+  },
+  {
+    "id": "187",
+    "pavilionCode": "P",
+    "pavilion": "Regeneration Pavilion",
+    "category": "Signature",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "188",
+    "pavilionCode": "E",
+    "pavilion": "Toyota Woven City Pavilion",
+    "category": "Private Sector",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "189",
+    "pavilionCode": "W",
+    "pavilion": "Sumitomo Pavilion",
+    "category": "Private Sector",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "190",
+    "pavilionCode": "E",
+    "pavilion": "Japan Association for the 2025 World Exposition",
+    "category": "Other",
+    "visited": false
+  },
+  {
+    "id": "191",
+    "pavilionCode": "C",
+    "pavilion": "Osaka Pavilion",
+    "category": "Other",
+    "visited": false
+  },
+  {
+    "id": "192",
+    "pavilionCode": "P",
+    "pavilion": "Civil Society Pavilion",
+    "category": "Other",
+    "visited": false
+  },
+  {
+    "id": "193",
+    "pavilionCode": "E",
+    "pavilion": "Healthcare and Medical Pavilion",
+    "category": "Other",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "194",
+    "pavilionCode": "W",
+    "pavilion": "Disaster Risk Reduction and Reconstruction Pavilion",
+    "category": "Other",
+    "visited": false
   }
 ]
