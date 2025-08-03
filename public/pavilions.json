@@ -4,42 +4,48 @@
     "pavilionCode": "S",
     "pavilion": "The Holy See",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "countryCode": "va"
   },
   {
     "id": "2",
     "pavilionCode": "S",
     "pavilion": "Kingdom of the Netherlands",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "countryCode": "nl"
   },
   {
     "id": "3",
     "pavilionCode": "S",
     "pavilion": "Sultanate of Oman",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "countryCode": "om"
   },
   {
     "id": "4",
     "pavilionCode": "C",
     "pavilion": "Kingdom of Saudi Arabia",
     "category": "Country",
-    "visited": true
+    "visited": true,
+    "countryCode": "sa"
   },
   {
     "id": "5",
     "pavilionCode": "S",
     "pavilion": "Republic of Singapore",
     "category": "Country",
-    "visited": true
+    "visited": true,
+    "countryCode": "sg"
   },
   {
     "id": "6",
     "pavilionCode": "C",
     "pavilion": "Kingdom of Thailand",
     "category": "Country",
-    "visited": true
+    "visited": true,
+    "countryCode": "th"
   },
   {
     "id": "7",
@@ -47,7 +53,8 @@
     "pavilion": "Japan",
     "category": "Country",
     "visited": true,
-    "reserve": "01.08 18:30"
+    "reserve": "01.08 18:30",
+    "countryCode": "jp"
   },
   {
     "id": "8",
@@ -85,21 +92,24 @@
     "pavilionCode": "C",
     "pavilion": "Federal Republic of Germany",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "countryCode": "de"
   },
   {
     "id": "13",
     "pavilionCode": "P",
     "pavilion": "Portugal",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "countryCode": "pt"
   },
   {
     "id": "14",
     "pavilionCode": "P",
     "pavilion": "United Arab Emirates",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "countryCode": "ae"
   },
   {
     "id": "15",
@@ -183,7 +193,8 @@
     "pavilion": "Australia",
     "category": "Country",
     "visited": false,
-    "reserve": "04.08 12:15"
+    "reserve": "04.08 12:15",
+    "countryCode": "au"
   },
   {
     "id": "26",
@@ -355,7 +366,8 @@
     "pavilionCode": "P",
     "pavilion": "China",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "countryCode": "cn"
   },
   {
     "id": "49",
@@ -635,7 +647,8 @@
     "pavilionCode": "C",
     "pavilion": "Republic of Korea",
     "category": "Country",
-    "visited": true
+    "visited": true,
+    "countryCode": "kr"
   },
   {
     "id": "86",
