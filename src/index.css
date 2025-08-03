@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 220 91% 56%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -34,7 +34,20 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 220 91% 56%;
+
+    /* Expo theme colors */
+    --expo-country: 200 100% 85%;
+    --expo-signature: 280 65% 85%;
+    --expo-private: 120 60% 85%;
+    --expo-other: 40 85% 85%;
+    
+    /* Gradients */
+    --gradient-expo: linear-gradient(135deg, hsl(220, 91%, 56%), hsl(260, 85%, 65%));
+    --gradient-hero: linear-gradient(180deg, hsl(220, 91%, 56%) 0%, hsl(260, 85%, 65%) 100%);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 

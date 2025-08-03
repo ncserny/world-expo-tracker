@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				expo: {
+					country: 'hsl(var(--expo-country))',
+					signature: 'hsl(var(--expo-signature))',
+					private: 'hsl(var(--expo-private))',
+					other: 'hsl(var(--expo-other))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
