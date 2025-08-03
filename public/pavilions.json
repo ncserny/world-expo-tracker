@@ -113,7 +113,7 @@
     "id": "16",
     "pavilionCode": "W",
     "pavilion": "Gundam Next Future",
-    "category": "Private Sector",
+    "category": "Country",
     "visited": false,
     "reserve": "needed"
   },
@@ -225,7 +225,7 @@
     "id": "31",
     "pavilionCode": "S",
     "pavilion": "Kingdom of Belgium",
-    "category": "Country",
+    "category": "Other",
     "visited": false
   },
   {
