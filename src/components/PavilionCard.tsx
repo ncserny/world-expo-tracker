@@ -10,16 +10,20 @@ interface PavilionCardProps {
   onToggleVisited: (id: string) => void;
 }
 
-const getCategoryColor = (category: PavilionCategory) => {
-  switch (category) {
-    case 'Country':
-      return 'bg-blue-50 border-blue-200';
-    case 'Signature':
-      return 'bg-purple-50 border-purple-200';
-    case 'Private Sector':
-      return 'bg-green-50 border-green-200';
-    case 'Other':
+const getBackgroundColorByCode = (code?: string) => {
+  switch (code) {
+    case 'S':
       return 'bg-orange-50 border-orange-200';
+    case 'C':
+      return 'bg-cyan-50 border-cyan-200';
+    case 'E':
+      return 'bg-red-50 border-red-200';
+    case 'P':
+      return 'bg-green-50 border-green-200';
+    case 'W':
+      return 'bg-blue-50 border-blue-200';
+    case 'X':
+      return 'bg-purple-50 border-purple-200';
     default:
       return 'bg-muted border-border';
   }
@@ -63,7 +67,7 @@ export const PavilionCard = ({ pavilion, onToggleVisited }: PavilionCardProps) =
   return (
     <Card className={cn(
       'transition-all duration-300 hover:shadow-lg border-2',
-      getCategoryColor(pavilion.category),
+      getBackgroundColorByCode(pavilion.pavilionCode),
       pavilion.visited && 'opacity-75 scale-[0.98]'
     )}>
       <CardContent className="p-4">
