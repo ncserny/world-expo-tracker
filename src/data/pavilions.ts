@@ -3,42 +3,49 @@ import { Pavilion } from '../types/pavilion';
 export const pavilions: Pavilion[] = [
   {
     id: '1',
+    pavilionCode: 'S',
     pavilion: 'The Holy See',
     category: 'Country',
     visited: false
   },
   {
     id: '2',
+    pavilionCode: 'S',
     pavilion: 'Kingdom of the Netherlands',
     category: 'Country',
     visited: false
   },
   {
     id: '3',
+    pavilionCode: 'S',
     pavilion: 'Sultanate of Oman',
     category: 'Country',
     visited: false
   },
   {
     id: '4',
+    pavilionCode: 'C',
     pavilion: 'Kingdom of Saudi Arabia',
     category: 'Country',
     visited: false
   },
   {
     id: '5',
+    pavilionCode: 'S',
     pavilion: 'Republic of Singapore',
     category: 'Country',
     visited: false
   },
   {
     id: '6',
+    pavilionCode: 'C',
     pavilion: 'Kingdom of Thailand',
     category: 'Country',
     visited: false
   },
   {
     id: '7',
+    pavilionCode: 'E',
     pavilion: 'Japan',
     reserve: '01.08 18:30',
     category: 'Country',
@@ -46,104 +53,120 @@ export const pavilions: Pavilion[] = [
   },
   {
     id: '8',
+    pavilionCode: 'X',
     pavilion: 'Better Co-Being',
-    reserve: 'needed',
+    reserve: 'reservation needed',
     category: 'Signature',
     visited: false
   },
   {
     id: '9',
+    pavilionCode: 'X',
     pavilion: 'Future of Life',
-    reserve: 'needed',
+    reserve: 'reservation needed',
     category: 'Signature',
     visited: false
   },
   {
     id: '10',
+    pavilionCode: 'X',
     pavilion: 'Playground of Life: Jellyfish',
     category: 'Signature',
     visited: false
   },
   {
     id: '11',
+    pavilionCode: 'X',
     pavilion: 'Null²',
-    reserve: 'needed',
+    reserve: 'reservation needed',
     category: 'Signature',
     visited: false
   },
   {
     id: '12',
+    pavilionCode: 'C',
     pavilion: 'Federal Republic of Germany',
     category: 'Country',
     visited: false
   },
   {
     id: '13',
+    pavilionCode: 'P',
     pavilion: 'Portugal',
     category: 'Country',
     visited: false
   },
   {
     id: '14',
+    pavilionCode: 'P',
     pavilion: 'United Arab Emirates',
     category: 'Country',
     visited: false
   },
   {
     id: '15',
+    pavilionCode: 'E',
     pavilion: 'Electric Power Eggs of Possibilitie',
-    reserve: 'needed',
+    reserve: 'reservation needed',
     category: 'Private Sector',
     visited: false
   },
   {
     id: '16',
+    pavilionCode: 'W',
     pavilion: 'Gundam Next Future',
-    reserve: 'needed',
+    reserve: 'reservation needed',
     category: 'Private Sector',
     visited: false
   },
   {
     id: '17',
+    pavilionCode: 'E',
     pavilion: 'NTT',
-    reserve: 'needed',
+    reserve: 'reservation needed',
     category: 'Private Sector',
     visited: false
   },
   {
     id: '18',
+    pavilionCode: 'E',
     pavilion: 'Panasonic Group',
-    reserve: 'needed',
+    reserve: 'reservation needed',
     category: 'Private Sector',
     visited: false
   },
   {
     id: '19',
+    pavilionCode: 'W',
     pavilion: 'Iida Group and Osaka Metropolita',
     category: 'Private Sector',
     visited: false
   },
   {
     id: '20',
+    pavilionCode: 'E',
     pavilion: 'Kansai',
-    reserve: 'needed',
+    reserve: 'reservation needed',
     category: 'Other',
     visited: false
   },
   {
     id: '21',
+    pavilionCode: 'S',
     pavilion: 'Democratic Republic of Algeria',
     category: 'Country',
     visited: false
   },
   {
     id: '22',
+    pavilionCode: 'S',
     pavilion: 'Republic of Angola',
     category: 'Country',
     visited: false
   },
   {
     id: '23',
+    pavilionCode: 'S',
     pavilion: 'Antigua and Barbuda',
     location: 'Commons D',
     category: 'Country',
@@ -151,12 +174,14 @@ export const pavilions: Pavilion[] = [
   },
   {
     id: '24',
+    pavilionCode: 'C',
     pavilion: 'Republic of Armenia',
     category: 'Country',
     visited: false
   },
   {
     id: '25',
+    pavilionCode: 'C',
     pavilion: 'Australia',
     reserve: '04.08 12:15',
     category: 'Country',
@@ -164,30 +189,35 @@ export const pavilions: Pavilion[] = [
   },
   {
     id: '26',
+    pavilionCode: 'P',
     pavilion: 'Austria',
     category: 'Country',
     visited: false
   },
   {
     id: '27',
+    pavilionCode: 'C',
     pavilion: 'Republic of Azerbaijan',
     category: 'Country',
     visited: false
   },
   {
     id: '28',
+    pavilionCode: 'P',
     pavilion: 'Kingdom of Bahrain',
     category: 'Country',
     visited: false
   },
   {
     id: '29',
+    pavilionCode: 'C',
     pavilion: "People's Republic of Bangladesh",
     category: 'Country',
     visited: false
   },
   {
     id: '30',
+    pavilionCode: 'P',
     pavilion: 'Barbados',
     location: 'Commons A',
     category: 'Country',
@@ -195,12 +225,14 @@ export const pavilions: Pavilion[] = [
   },
   {
     id: '31',
+    pavilionCode: 'S',
     pavilion: 'Kingdom of Belgium',
     category: 'Country',
     visited: false
   },
   {
     id: '32',
+    pavilionCode: 'S',
     pavilion: 'Belize',
     location: 'Commons D',
     category: 'Country',
@@ -208,6 +240,7 @@ export const pavilions: Pavilion[] = [
   },
   {
     id: '33',
+    pavilionCode: 'C',
     pavilion: 'Republic of Benin',
     location: 'Commons B',
     category: 'Country',
@@ -215,6 +248,7 @@ export const pavilions: Pavilion[] = [
   },
   {
     id: '34',
+    pavilionCode: 'S',
     pavilion: 'Kingdom of Bhutan',
     location: 'Commons D',
     category: 'Country',
