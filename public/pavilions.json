@@ -25,45 +25,45 @@
     "pavilionCode": "C",
     "pavilion": "Kingdom of Saudi Arabia",
     "category": "Country",
-    "visited": false
+    "visited": true
   },
   {
     "id": "5",
     "pavilionCode": "S",
     "pavilion": "Republic of Singapore",
     "category": "Country",
-    "visited": false
+    "visited": true
   },
   {
     "id": "6",
     "pavilionCode": "C",
     "pavilion": "Kingdom of Thailand",
     "category": "Country",
-    "visited": false
+    "visited": true
   },
   {
     "id": "7",
     "pavilionCode": "E",
     "pavilion": "Japan",
-    "reserve": "01.08 18:30",
     "category": "Country",
-    "visited": false
+    "visited": true,
+    "reserve": "01.08 18:30"
   },
   {
     "id": "8",
     "pavilionCode": "X",
     "pavilion": "Better Co-Being",
-    "reserve": "reservation needed",
     "category": "Signature",
-    "visited": false
+    "visited": false,
+    "reserve": "needed"
   },
   {
     "id": "9",
     "pavilionCode": "X",
     "pavilion": "Future of Life",
-    "reserve": "reservation needed",
     "category": "Signature",
-    "visited": false
+    "visited": false,
+    "reserve": "needed"
   },
   {
     "id": "10",
@@ -76,9 +76,9 @@
     "id": "11",
     "pavilionCode": "X",
     "pavilion": "Null²",
-    "reserve": "reservation needed",
     "category": "Signature",
-    "visited": false
+    "visited": false,
+    "reserve": "needed"
   },
   {
     "id": "12",
@@ -104,39 +104,39 @@
   {
     "id": "15",
     "pavilionCode": "E",
-    "pavilion": "Electric Power Eggs of Possibilitie",
-    "reserve": "reservation needed",
+    "pavilion": "Electric Power Eggs of Possibilities",
     "category": "Private Sector",
-    "visited": false
+    "visited": false,
+    "reserve": "needed"
   },
   {
     "id": "16",
     "pavilionCode": "W",
     "pavilion": "Gundam Next Future",
-    "reserve": "reservation needed",
     "category": "Private Sector",
-    "visited": false
+    "visited": false,
+    "reserve": "needed"
   },
   {
     "id": "17",
     "pavilionCode": "E",
     "pavilion": "NTT",
-    "reserve": "reservation needed",
     "category": "Private Sector",
-    "visited": false
+    "visited": false,
+    "reserve": "needed"
   },
   {
     "id": "18",
     "pavilionCode": "E",
     "pavilion": "Panasonic Group",
-    "reserve": "reservation needed",
     "category": "Private Sector",
-    "visited": false
+    "visited": false,
+    "reserve": "needed"
   },
   {
     "id": "19",
     "pavilionCode": "W",
-    "pavilion": "Iida Group and Osaka Metropolita",
+    "pavilion": "Iida Group and Osaka Metropolitan University Joint",
     "category": "Private Sector",
     "visited": false
   },
@@ -144,9 +144,9 @@
     "id": "20",
     "pavilionCode": "E",
     "pavilion": "Kansai",
-    "reserve": "reservation needed",
     "category": "Other",
-    "visited": false
+    "visited": false,
+    "reserve": "needed"
   },
   {
     "id": "21",
@@ -166,9 +166,9 @@
     "id": "23",
     "pavilionCode": "S",
     "pavilion": "Antigua and Barbuda",
-    "location": "Commons D",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "location": "Commons D"
   },
   {
     "id": "24",
@@ -181,9 +181,9 @@
     "id": "25",
     "pavilionCode": "C",
     "pavilion": "Australia",
-    "reserve": "04.08 12:15",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "reserve": "04.08 12:15"
   },
   {
     "id": "26",
@@ -209,7 +209,7 @@
   {
     "id": "29",
     "pavilionCode": "C",
-    "pavilion": "People's Republic of Bangladesh",
+    "pavilion": "People’s Republic of Bangladesh",
     "category": "Country",
     "visited": false
   },
@@ -217,9 +217,9 @@
     "id": "30",
     "pavilionCode": "P",
     "pavilion": "Barbados",
-    "location": "Commons A",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "location": "Commons A"
   },
   {
     "id": "31",
@@ -232,24 +232,1232 @@
     "id": "32",
     "pavilionCode": "S",
     "pavilion": "Belize",
-    "location": "Commons D",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "location": "Commons D"
   },
   {
     "id": "33",
     "pavilionCode": "C",
     "pavilion": "Republic of Benin",
-    "location": "Commons B",
     "category": "Country",
-    "visited": false
+    "visited": false,
+    "location": "Commons B"
   },
   {
     "id": "34",
     "pavilionCode": "S",
     "pavilion": "Kingdom of Bhutan",
-    "location": "Commons D",
     "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "35",
+    "pavilionCode": "P",
+    "pavilion": "Plurinational State of Bolivia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "36",
+    "pavilionCode": "P",
+    "pavilion": "Brazil",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "37",
+    "pavilionCode": "C",
+    "pavilion": "Brunei Darussalam",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "38",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Bulgaria",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "39",
+    "pavilionCode": "S",
+    "pavilion": "Burkina Faso",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "40",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Burundi",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "41",
+    "pavilionCode": "S",
+    "pavilion": "Kingdom of Cambodia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "42",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Cameroon",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "43",
+    "pavilionCode": "P",
+    "pavilion": "Canada",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "44",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Cabo Verde",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "45",
+    "pavilionCode": "C",
+    "pavilion": "Central African Republic",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "46",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Chad",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "47",
+    "pavilionCode": "S",
+    "pavilion": "Chile",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "48",
+    "pavilionCode": "P",
+    "pavilion": "China",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "49",
+    "pavilionCode": "P",
+    "pavilion": "Colombia",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "50",
+    "pavilionCode": "P",
+    "pavilion": "Union of Comoros",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "51",
+    "pavilionCode": "S",
+    "pavilion": "Democratic Republic of the Congo",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "52",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Cote d’Ivoire",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "53",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Croatia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "54",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Cuba",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "55",
+    "pavilionCode": "P",
+    "pavilion": "Czech Republic",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "56",
+    "pavilionCode": "P",
+    "pavilion": "Kingdom of Denmark",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "57",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Djibouti",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "58",
+    "pavilionCode": "C",
+    "pavilion": "Dominican Republic",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "59",
+    "pavilionCode": "C",
+    "pavilion": "Arab Republic of Egypt",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "60",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Equatorial Guinea",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "61",
+    "pavilionCode": "P",
+    "pavilion": "Kingdom of Eswatini",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "62",
+    "pavilionCode": "C",
+    "pavilion": "Federal Democratic Republic of Ethiopia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "63",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Fiji",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "64",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Finland",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "65",
+    "pavilionCode": "S",
+    "pavilion": "Gabon",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "66",
+    "pavilionCode": "C",
+    "pavilion": "Republic of The Gambia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "67",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Ghana",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "68",
+    "pavilionCode": "P",
+    "pavilion": "Grenada",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "69",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Guatemala",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "70",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Guinea",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "71",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Guinea-Bissau",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "72",
+    "pavilionCode": "C",
+    "pavilion": "Co-operative Republic of Guyana",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "73",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Haiti",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "74",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Honduras",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "75",
+    "pavilionCode": "S",
+    "pavilion": "Hungary",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "76",
+    "pavilionCode": "P",
+    "pavilion": "Iceland",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "77",
+    "pavilionCode": "C",
+    "pavilion": "India",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "78",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Indonesia",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "79",
+    "pavilionCode": "P",
+    "pavilion": "Ireland",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "80",
+    "pavilionCode": "S",
+    "pavilion": "Israel",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "81",
+    "pavilionCode": "S",
+    "pavilion": "Italy",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "82",
+    "pavilionCode": "C",
+    "pavilion": "Jamaica",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "83",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Kazakhstan",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "84",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Kenya",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "85",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Korea",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "86",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Kosovo",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "87",
+    "pavilionCode": "P",
+    "pavilion": "Kuwait",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "88",
+    "pavilionCode": "P",
+    "pavilion": "Kyrgyz Republic",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "89",
+    "pavilionCode": "S",
+    "pavilion": "Lao People's Democratic Republic",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "90",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Latvia",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "91",
+    "pavilionCode": "C",
+    "pavilion": "Kingdom of Lesotho",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "92",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Liberia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "93",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Lithuania",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "94",
+    "pavilionCode": "C",
+    "pavilion": "Grand Duchy of Luxembourg",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "95",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Madagascar",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "96",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Malawi",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "97",
+    "pavilionCode": "P",
+    "pavilion": "Malaysia",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "98",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Mali",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "99",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Malta",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "100",
+    "pavilionCode": "S",
+    "pavilion": "Republic of the Marshall Islands",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "101",
+    "pavilionCode": "C",
+    "pavilion": "Islamic Republic of Mauritania",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "102",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Mauritius",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "103",
+    "pavilionCode": "C",
+    "pavilion": "Federated States of Micronesia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "104",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Moldova",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "105",
+    "pavilionCode": "C",
+    "pavilion": "Principality of Monaco",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "106",
+    "pavilionCode": "S",
+    "pavilion": "Mongolia",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "107",
+    "pavilionCode": "S",
+    "pavilion": "Montenegro",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "108",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Mozambique",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "109",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Nauru",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "110",
+    "pavilionCode": "C",
+    "pavilion": "Nepal",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "111",
+    "pavilionCode": "S",
+    "pavilion": "Federal Republic of Nigeria",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "112",
+    "pavilionCode": "P",
+    "pavilion": "Republic of North Macedonia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "113",
+    "pavilionCode": "P",
+    "pavilion": "Kingdom of Norway",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "114",
+    "pavilionCode": "S",
+    "pavilion": "Islamic Republic of Pakistan",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "115",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Palau",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "116",
+    "pavilionCode": "S",
+    "pavilion": "Palestine",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "117",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Panama",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "118",
+    "pavilionCode": "P",
+    "pavilion": "Papua New Guinea",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "119",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Paraguay",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "120",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Peru",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "121",
+    "pavilionCode": "P",
+    "pavilion": "Republic of the Philippines",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "122",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Poland",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "123",
+    "pavilionCode": "P",
+    "pavilion": "Qatar",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "124",
+    "pavilionCode": "S",
+    "pavilion": "Romania",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "125",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Rwanda",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "126",
+    "pavilionCode": "P",
+    "pavilion": "Saint Kitts and Nevis",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "127",
+    "pavilionCode": "P",
+    "pavilion": "Saint Lucia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "128",
+    "pavilionCode": "C",
+    "pavilion": "Saint Vincent and the Grenadines",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "129",
+    "pavilionCode": "P",
+    "pavilion": "Independent State of Samoa",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "130",
+    "pavilionCode": "S",
+    "pavilion": "Republic of San Marino",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "131",
+    "pavilionCode": "S",
+    "pavilion": "Democratic Republic of Sao Tome and Principe",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "132",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Senegal",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "133",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Serbia",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "134",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Seychelles",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "135",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Sierra Leone",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "136",
+    "pavilionCode": "S",
+    "pavilion": "Slovakia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "137",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Slovenia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "138",
+    "pavilionCode": "P",
+    "pavilion": "Solomon Islands",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "139",
+    "pavilionCode": "C",
+    "pavilion": "Federal Republic of Somalia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "140",
+    "pavilionCode": "S",
+    "pavilion": "The Republic of South Sudan",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "141",
+    "pavilionCode": "C",
+    "pavilion": "Kingdom of Spain",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "142",
+    "pavilionCode": "P",
+    "pavilion": "Sri Lanka",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "143",
+    "pavilionCode": "S",
+    "pavilion": "The Republic of the Sudan",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "144",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Suriname",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "145",
+    "pavilionCode": "P",
+    "pavilion": "Kingdom of Sweden",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "146",
+    "pavilionCode": "P",
+    "pavilion": "Switzerland",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "147",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Tajikistan",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "148",
+    "pavilionCode": "C",
+    "pavilion": "United Republic of Tanzania",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "149",
+    "pavilionCode": "C",
+    "pavilion": "Timor-Leste",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "150",
+    "pavilionCode": "S",
+    "pavilion": "Republic of Togo",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons D"
+  },
+  {
+    "id": "151",
+    "pavilionCode": "P",
+    "pavilion": "Kingdom of Tonga",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "152",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Trinidad and Tobago",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "153",
+    "pavilionCode": "S",
+    "pavilion": "Tunisia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "154",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Turkey",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "155",
+    "pavilionCode": "P",
+    "pavilion": "Turkmenistan",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "156",
+    "pavilionCode": "C",
+    "pavilion": "Tuvalu",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "157",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Uganda",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "158",
+    "pavilionCode": "S",
+    "pavilion": "Ukraine",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "159",
+    "pavilionCode": "S",
+    "pavilion": "United Kingdom of Great Britain and Northern Ireland",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "160",
+    "pavilionCode": "P",
+    "pavilion": "United States of America",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "161",
+    "pavilionCode": "S",
+    "pavilion": "Uruguay",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons C"
+  },
+  {
+    "id": "162",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Uzbekistan",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "163",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Vanuatu",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "164",
+    "pavilionCode": "P",
+    "pavilion": "Vietnam",
+    "category": "Country",
+    "visited": true
+  },
+  {
+    "id": "165",
+    "pavilionCode": "P",
+    "pavilion": "Republic of Yemen",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons A"
+  },
+  {
+    "id": "166",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Zambia",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "167",
+    "pavilionCode": "C",
+    "pavilion": "Republic of Zimbabwe",
+    "category": "Country",
+    "visited": false,
+    "location": "Commons B"
+  },
+  {
+    "id": "168",
+    "pavilionCode": "P",
+    "pavilion": "ASEAN Secretariat",
+    "category": "International Org",
+    "visited": false
+  },
+  {
+    "id": "169",
+    "pavilionCode": "S",
+    "pavilion": "European Union",
+    "category": "International Org",
+    "visited": false
+  },
+  {
+    "id": "170",
+    "pavilionCode": "",
+    "pavilion": "International Red Cross and Red Crescent Movement",
+    "category": "International Org",
+    "visited": false
+  },
+  {
+    "id": "171",
+    "pavilionCode": "P",
+    "pavilion": "International Science and Technology Center",
+    "category": "International Org",
+    "visited": false
+  },
+  {
+    "id": "172",
+    "pavilionCode": "P",
+    "pavilion": "International Solar Alliance",
+    "category": "International Org",
+    "visited": false
+  },
+  {
+    "id": "173",
+    "pavilionCode": "",
+    "pavilion": "International Thermonuclear Experimental Reactor",
+    "category": "International Org",
+    "visited": false
+  },
+  {
+    "id": "174",
+    "pavilionCode": "",
+    "pavilion": "United Nations",
+    "category": "International Org",
+    "visited": false
+  },
+  {
+    "id": "175",
+    "pavilionCode": "W",
+    "pavilion": "Gas Obake Wonderland",
+    "category": "Private Sector",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "176",
+    "pavilionCode": "E",
+    "pavilion": "Mitsubishi",
+    "category": "Private Sector",
+    "visited": false
+  },
+  {
+    "id": "177",
+    "pavilionCode": "W",
+    "pavilion": "ORA Gaishoku",
+    "category": "Private Sector",
+    "visited": false
+  },
+  {
+    "id": "178",
+    "pavilionCode": "W",
+    "pavilion": "Pasona Natureverse",
+    "category": "Private Sector",
+    "visited": false
+  },
+  {
+    "id": "179",
+    "pavilionCode": "E",
+    "pavilion": "Sumitomo",
+    "category": "Private Sector",
+    "visited": false
+  },
+  {
+    "id": "180",
+    "pavilionCode": "W",
+    "pavilion": "Tamayama Digital Tech World",
+    "category": "Private Sector",
+    "visited": false
+  },
+  {
+    "id": "181",
+    "pavilionCode": "W",
+    "pavilion": "Yoshimoto",
+    "category": "Private Sector",
+    "visited": false
+  },
+  {
+    "id": "182",
+    "pavilionCode": "W",
+    "pavilion": "Zeri Japan Blue Ocean Dome",
+    "category": "Private Sector",
+    "visited": false
+  },
+  {
+    "id": "183",
+    "pavilionCode": "X",
+    "pavilion": "Dynamic Equilibrium of Life",
+    "category": "Signature",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "184",
+    "pavilionCode": "",
+    "pavilion": "Live Earth Journey",
+    "category": "Signature",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "185",
+    "pavilionCode": "X",
+    "pavilion": "Earth Mart",
+    "category": "Signature",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "186",
+    "pavilionCode": "X",
+    "pavilion": "Dialogue Theater",
+    "category": "Signature",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "187",
+    "pavilionCode": "",
+    "pavilion": "Architecture That Becomes a Forest",
+    "category": "Other",
+    "visited": false
+  },
+  {
+    "id": "188",
+    "pavilionCode": "",
+    "pavilion": "Grand Ring",
+    "category": "Other",
+    "visited": true
+  },
+  {
+    "id": "189",
+    "pavilionCode": "E",
+    "pavilion": "Women's Pavillon in collaboration with Cartier",
+    "category": "Other",
+    "visited": false
+  },
+  {
+    "id": "190",
+    "pavilionCode": "P",
+    "pavilion": "World Expo Museum",
+    "category": "Other",
+    "visited": false
+  },
+  {
+    "id": "191",
+    "pavilionCode": "P",
+    "pavilion": "Jordan",
+    "category": "Country",
+    "visited": false,
+    "reserve": "needed"
+  },
+  {
+    "id": "192",
+    "pavilionCode": "P",
+    "pavilion": "Robot Station",
+    "category": "",
+    "visited": true
+  },
+  {
+    "id": "193",
+    "pavilionCode": "P",
+    "pavilion": "France",
+    "category": "Country",
+    "visited": false
+  },
+  {
+    "id": "194",
+    "pavilionCode": "P",
+    "pavilion": "Advanced Air Mobility Station",
+    "category": "",
     "visited": false
   }
 ]
