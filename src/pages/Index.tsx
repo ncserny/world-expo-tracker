@@ -144,7 +144,8 @@ const Index = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent mb-4">
-            World Expo 2025 Osaka
+            <span className="md:hidden">World Expo 2025</span>
+            <span className="hidden md:inline">World Expo 2025 Osaka</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Track your journey through all the amazing pavilions at World Expo in Osaka, Japan
