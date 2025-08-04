@@ -53,6 +53,7 @@
     "pavilion": "Japan",
     "category": "Country",
     "visited": false,
+    "reserve": "01.08 18:30",
     "countryCode": "jp"
   },
   {
@@ -1631,5 +1632,5 @@
     "category": "Country",
     "visited": false,
     "countryCode": "fr"
-  },
+  }
 ]
