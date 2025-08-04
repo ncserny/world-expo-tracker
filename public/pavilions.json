@@ -10,7 +10,7 @@
   {
     "id": "2",
     "pavilionCode": "S",
-    "pavilion": "Kingdom of the Netherlands",
+    "pavilion": "Netherlands",
     "category": "Country",
     "visited": false,
     "countryCode": "nl"
@@ -18,7 +18,7 @@
   {
     "id": "3",
     "pavilionCode": "S",
-    "pavilion": "Sultanate of Oman",
+    "pavilion": "Oman",
     "category": "Country",
     "visited": false,
     "countryCode": "om"
@@ -26,7 +26,7 @@
   {
     "id": "4",
     "pavilionCode": "C",
-    "pavilion": "Kingdom of Saudi Arabia",
+    "pavilion": "Saudi Arabia",
     "category": "Country",
     "visited": true,
     "countryCode": "sa"
@@ -34,7 +34,7 @@
   {
     "id": "5",
     "pavilionCode": "S",
-    "pavilion": "Republic of Singapore",
+    "pavilion": "Singapore",
     "category": "Country",
     "visited": true,
     "countryCode": "sg"
@@ -42,7 +42,7 @@
   {
     "id": "6",
     "pavilionCode": "C",
-    "pavilion": "Kingdom of Thailand",
+    "pavilion": "Thailand",
     "category": "Country",
     "visited": true,
     "countryCode": "th"
@@ -90,7 +90,7 @@
   {
     "id": "12",
     "pavilionCode": "C",
-    "pavilion": "Federal Republic of Germany",
+    "pavilion": "Germany",
     "category": "Country",
     "visited": false,
     "countryCode": "de"
@@ -161,7 +161,7 @@
   {
     "id": "21",
     "pavilionCode": "S",
-    "pavilion": "Democratic Republic of Algeria",
+    "pavilion": "Algeria",
     "category": "Country",
     "visited": false,
     "countryCode": "dz"
@@ -169,7 +169,7 @@
   {
     "id": "22",
     "pavilionCode": "S",
-    "pavilion": "Republic of Angola",
+    "pavilion": "Angola",
     "category": "Country",
     "visited": false,
     "countryCode": "ao"
@@ -186,7 +186,7 @@
   {
     "id": "24",
     "pavilionCode": "C",
-    "pavilion": "Republic of Armenia",
+    "pavilion": "Armenia",
     "category": "Country",
     "visited": false,
     "countryCode": "am"
@@ -211,7 +211,7 @@
   {
     "id": "27",
     "pavilionCode": "C",
-    "pavilion": "Republic of Azerbaijan",
+    "pavilion": "Azerbaijan",
     "category": "Country",
     "visited": false,
     "countryCode": "az"
@@ -219,7 +219,7 @@
   {
     "id": "28",
     "pavilionCode": "P",
-    "pavilion": "Kingdom of Bahrain",
+    "pavilion": "Bahrain",
     "category": "Country",
     "visited": false,
     "countryCode": "bh"
@@ -227,7 +227,7 @@
   {
     "id": "29",
     "pavilionCode": "C",
-    "pavilion": "People's Republic of Bangladesh",
+    "pavilion": "Bangladesh",
     "category": "Country",
     "visited": false,
     "countryCode": "bd"
@@ -244,7 +244,7 @@
   {
     "id": "31",
     "pavilionCode": "S",
-    "pavilion": "Kingdom of Belgium",
+    "pavilion": "Belgium",
     "category": "Country",
     "visited": false,
     "countryCode": "be"
@@ -261,7 +261,7 @@
   {
     "id": "33",
     "pavilionCode": "C",
-    "pavilion": "Republic of Benin",
+    "pavilion": "Benin",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -270,7 +270,7 @@
   {
     "id": "34",
     "pavilionCode": "S",
-    "pavilion": "Kingdom of Bhutan",
+    "pavilion": "Bhutan",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -279,7 +279,7 @@
   {
     "id": "35",
     "pavilionCode": "P",
-    "pavilion": "Plurinational State of Bolivia",
+    "pavilion": "Bolivia",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -304,7 +304,7 @@
   {
     "id": "38",
     "pavilionCode": "S",
-    "pavilion": "Republic of Bulgaria",
+    "pavilion": "Bulgaria",
     "category": "Country",
     "visited": false,
     "countryCode": "bg"
@@ -321,7 +321,7 @@
   {
     "id": "40",
     "pavilionCode": "P",
-    "pavilion": "Republic of Burundi",
+    "pavilion": "Burundi",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -330,7 +330,7 @@
   {
     "id": "41",
     "pavilionCode": "S",
-    "pavilion": "Kingdom of Cambodia",
+    "pavilion": "Cambodia",
     "category": "Country",
     "visited": false,
     "location": "Commons C",
@@ -339,7 +339,7 @@
   {
     "id": "42",
     "pavilionCode": "S",
-    "pavilion": "Republic of Cameroon",
+    "pavilion": "Cameroon",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -356,7 +356,7 @@
   {
     "id": "44",
     "pavilionCode": "C",
-    "pavilion": "Republic of Cabo Verde",
+    "pavilion": "Cabo Verde",
     "category": "Country",
     "visited": false,
     "countryCode": "cv"
@@ -373,7 +373,7 @@
   {
     "id": "46",
     "pavilionCode": "C",
-    "pavilion": "Republic of Chad",
+    "pavilion": "Chad",
     "category": "Country",
     "visited": false,
     "countryCode": "td"
@@ -415,7 +415,7 @@
   {
     "id": "51",
     "pavilionCode": "S",
-    "pavilion": "Democratic Republic of the Congo",
+    "pavilion": "Congo",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -424,7 +424,7 @@
   {
     "id": "52",
     "pavilionCode": "C",
-    "pavilion": "Republic of Cote d'Ivoire",
+    "pavilion": "Cote d'Ivoire",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -433,7 +433,7 @@
   {
     "id": "53",
     "pavilionCode": "S",
-    "pavilion": "Republic of Croatia",
+    "pavilion": "Croatia",
     "category": "Country",
     "visited": false,
     "location": "Commons C",
@@ -442,7 +442,7 @@
   {
     "id": "54",
     "pavilionCode": "S",
-    "pavilion": "Republic of Cuba",
+    "pavilion": "Cuba",
     "category": "Country",
     "visited": false,
     "countryCode": "cu"
@@ -458,7 +458,7 @@
   {
     "id": "56",
     "pavilionCode": "P",
-    "pavilion": "Kingdom of Denmark",
+    "pavilion": "Denmark",
     "category": "Country",
     "visited": false,
     "countryCode": "dk"
@@ -466,7 +466,7 @@
   {
     "id": "57",
     "pavilionCode": "C",
-    "pavilion": "Republic of Djibouti",
+    "pavilion": "Djibouti",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -484,7 +484,7 @@
   {
     "id": "59",
     "pavilionCode": "C",
-    "pavilion": "Arab Republic of Egypt",
+    "pavilion": "Arab Egypt",
     "category": "Country",
     "visited": false,
     "countryCode": "eg"
@@ -492,7 +492,7 @@
   {
     "id": "60",
     "pavilionCode": "S",
-    "pavilion": "Republic of Equatorial Guinea",
+    "pavilion": "Equatorial Guinea",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -501,7 +501,7 @@
   {
     "id": "61",
     "pavilionCode": "P",
-    "pavilion": "Kingdom of Eswatini",
+    "pavilion": "Eswatini",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -510,7 +510,7 @@
   {
     "id": "62",
     "pavilionCode": "C",
-    "pavilion": "Federal Democratic Republic of Ethiopia",
+    "pavilion": "Ethiopia",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -519,7 +519,7 @@
   {
     "id": "63",
     "pavilionCode": "C",
-    "pavilion": "Republic of Fiji",
+    "pavilion": "Fiji",
     "category": "Country",
     "visited": false,
     "countryCode": "fj"
@@ -527,7 +527,7 @@
   {
     "id": "64",
     "pavilionCode": "P",
-    "pavilion": "Republic of Finland",
+    "pavilion": "Finland",
     "category": "Country",
     "visited": true,
     "countryCode": "fi"
@@ -543,7 +543,7 @@
   {
     "id": "66",
     "pavilionCode": "C",
-    "pavilion": "Republic of The Gambia",
+    "pavilion": "Gambia",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -552,7 +552,7 @@
   {
     "id": "67",
     "pavilionCode": "P",
-    "pavilion": "Republic of Ghana",
+    "pavilion": "Ghana",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -570,7 +570,7 @@
   {
     "id": "69",
     "pavilionCode": "S",
-    "pavilion": "Republic of Guatemala",
+    "pavilion": "Guatemala",
     "category": "Country",
     "visited": false,
     "location": "Commons C",
@@ -579,7 +579,7 @@
   {
     "id": "70",
     "pavilionCode": "S",
-    "pavilion": "Republic of Guinea",
+    "pavilion": "Guinea",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -588,7 +588,7 @@
   {
     "id": "71",
     "pavilionCode": "P",
-    "pavilion": "Republic of Guinea-Bissau",
+    "pavilion": "Guinea-Bissau",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -597,7 +597,7 @@
   {
     "id": "72",
     "pavilionCode": "C",
-    "pavilion": "Co-operative Republic of Guyana",
+    "pavilion": "Guyana",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -606,7 +606,7 @@
   {
     "id": "73",
     "pavilionCode": "C",
-    "pavilion": "Republic of Haiti",
+    "pavilion": "Haiti",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -615,7 +615,7 @@
   {
     "id": "74",
     "pavilionCode": "S",
-    "pavilion": "Republic of Honduras",
+    "pavilion": "Honduras",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -648,7 +648,7 @@
   {
     "id": "78",
     "pavilionCode": "C",
-    "pavilion": "Republic of Indonesia",
+    "pavilion": "Indonesia",
     "category": "Country",
     "visited": true,
     "countryCode": "id"
@@ -690,7 +690,7 @@
   {
     "id": "83",
     "pavilionCode": "C",
-    "pavilion": "Republic of Kazakhstan",
+    "pavilion": "Kazakhstan",
     "category": "Country",
     "visited": false,
     "countryCode": "kz"
@@ -698,7 +698,7 @@
   {
     "id": "84",
     "pavilionCode": "P",
-    "pavilion": "Republic of Kenya",
+    "pavilion": "Kenya",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -707,7 +707,7 @@
   {
     "id": "85",
     "pavilionCode": "C",
-    "pavilion": "Republic of Korea",
+    "pavilion": "Korea",
     "category": "Country",
     "visited": true,
     "countryCode": "kr"
@@ -715,7 +715,7 @@
   {
     "id": "86",
     "pavilionCode": "P",
-    "pavilion": "Republic of Kosovo",
+    "pavilion": "Kosovo",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -732,7 +732,7 @@
   {
     "id": "88",
     "pavilionCode": "P",
-    "pavilion": "Kyrgyz Republic",
+    "pavilion": "Kyrgyzstan",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -750,7 +750,7 @@
   {
     "id": "90",
     "pavilionCode": "S",
-    "pavilion": "Republic of Latvia",
+    "pavilion": "Latvia",
     "category": "Country",
     "visited": false,
     "countryCode": "lv"
@@ -758,7 +758,7 @@
   {
     "id": "91",
     "pavilionCode": "C",
-    "pavilion": "Kingdom of Lesotho",
+    "pavilion": "Lesotho",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -767,7 +767,7 @@
   {
     "id": "92",
     "pavilionCode": "S",
-    "pavilion": "Republic of Liberia",
+    "pavilion": "Liberia",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -776,7 +776,7 @@
   {
     "id": "93",
     "pavilionCode": "S",
-    "pavilion": "Republic of Lithuania",
+    "pavilion": "Lithuania",
     "category": "Country",
     "visited": false,
     "countryCode": "lt"
@@ -784,7 +784,7 @@
   {
     "id": "94",
     "pavilionCode": "C",
-    "pavilion": "Grand Duchy of Luxembourg",
+    "pavilion": "Luxembourg",
     "category": "Country",
     "visited": false,
     "countryCode": "lu"
@@ -792,7 +792,7 @@
   {
     "id": "95",
     "pavilionCode": "S",
-    "pavilion": "Republic of Madagascar",
+    "pavilion": "Madagascar",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -801,7 +801,7 @@
   {
     "id": "96",
     "pavilionCode": "P",
-    "pavilion": "Republic of Malawi",
+    "pavilion": "Malawi",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -818,7 +818,7 @@
   {
     "id": "98",
     "pavilionCode": "S",
-    "pavilion": "Republic of Mali",
+    "pavilion": "Mali",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -827,7 +827,7 @@
   {
     "id": "99",
     "pavilionCode": "P",
-    "pavilion": "Republic of Malta",
+    "pavilion": "Malta",
     "category": "Country",
     "visited": false,
     "countryCode": "mt"
@@ -835,7 +835,7 @@
   {
     "id": "100",
     "pavilionCode": "S",
-    "pavilion": "Republic of the Marshall Islands",
+    "pavilion": "Marshall Islands",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -844,7 +844,7 @@
   {
     "id": "101",
     "pavilionCode": "C",
-    "pavilion": "Islamic Republic of Mauritania",
+    "pavilion": "Mauritania",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -853,7 +853,7 @@
   {
     "id": "102",
     "pavilionCode": "P",
-    "pavilion": "Republic of Mauritius",
+    "pavilion": "Mauritius",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -862,7 +862,7 @@
   {
     "id": "103",
     "pavilionCode": "C",
-    "pavilion": "Federated States of Micronesia",
+    "pavilion": "Micronesia",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -871,7 +871,7 @@
   {
     "id": "104",
     "pavilionCode": "S",
-    "pavilion": "Republic of Moldova",
+    "pavilion": "Moldova",
     "category": "Country",
     "visited": false,
     "countryCode": "md"
@@ -879,7 +879,7 @@
   {
     "id": "105",
     "pavilionCode": "S",
-    "pavilion": "Principality of Monaco",
+    "pavilion": "Monaco",
     "category": "Country",
     "visited": false,
     "countryCode": "mc"
@@ -903,7 +903,7 @@
   {
     "id": "108",
     "pavilionCode": "C",
-    "pavilion": "Kingdom of Morocco",
+    "pavilion": "Morocco",
     "category": "Country",
     "visited": false,
     "countryCode": "ma"
@@ -911,7 +911,7 @@
   {
     "id": "109",
     "pavilionCode": "C",
-    "pavilion": "Republic of Mozambique",
+    "pavilion": "Mozambique",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -920,7 +920,7 @@
   {
     "id": "110",
     "pavilionCode": "C",
-    "pavilion": "Republic of the Union of Myanmar",
+    "pavilion": "Myanmar",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -929,7 +929,7 @@
   {
     "id": "111",
     "pavilionCode": "P",
-    "pavilion": "Republic of Namibia",
+    "pavilion": "Namibia",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -938,7 +938,7 @@
   {
     "id": "112",
     "pavilionCode": "C",
-    "pavilion": "Republic of Nauru",
+    "pavilion": "Nauru",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -947,7 +947,7 @@
   {
     "id": "113",
     "pavilionCode": "C",
-    "pavilion": "Federal Democratic Republic of Nepal",
+    "pavilion": "Nepal",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -964,7 +964,7 @@
   {
     "id": "115",
     "pavilionCode": "S",
-    "pavilion": "Republic of Nicaragua",
+    "pavilion": "Nicaragua",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -973,7 +973,7 @@
   {
     "id": "116",
     "pavilionCode": "S",
-    "pavilion": "Republic of the Niger",
+    "pavilion": "Niger",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -982,7 +982,7 @@
   {
     "id": "117",
     "pavilionCode": "C",
-    "pavilion": "Federal Republic of Nigeria",
+    "pavilion": "Nigeria",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -991,7 +991,7 @@
   {
     "id": "118",
     "pavilionCode": "S",
-    "pavilion": "Republic of North Macedonia",
+    "pavilion": "North Macedonia",
     "category": "Country",
     "visited": false,
     "countryCode": "mk"
@@ -999,7 +999,7 @@
   {
     "id": "119",
     "pavilionCode": "P",
-    "pavilion": "Kingdom of Norway",
+    "pavilion": "Norway",
     "category": "Country",
     "visited": false,
     "countryCode": "no"
@@ -1007,7 +1007,7 @@
   {
     "id": "120",
     "pavilionCode": "C",
-    "pavilion": "Islamic Republic of Pakistan",
+    "pavilion": "Pakistan",
     "category": "Country",
     "visited": false,
     "countryCode": "pk"
@@ -1015,7 +1015,7 @@
   {
     "id": "121",
     "pavilionCode": "C",
-    "pavilion": "Republic of Palau",
+    "pavilion": "Palau",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1024,7 +1024,7 @@
   {
     "id": "122",
     "pavilionCode": "S",
-    "pavilion": "Republic of Panama",
+    "pavilion": "Panama",
     "category": "Country",
     "visited": false,
     "location": "Commons C",
@@ -1033,7 +1033,7 @@
   {
     "id": "123",
     "pavilionCode": "C",
-    "pavilion": "Independent State of Papua New Guinea",
+    "pavilion": "Papua New Guinea",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1042,7 +1042,7 @@
   {
     "id": "124",
     "pavilionCode": "P",
-    "pavilion": "Republic of Paraguay",
+    "pavilion": "Paraguay",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1051,7 +1051,7 @@
   {
     "id": "125",
     "pavilionCode": "S",
-    "pavilion": "Republic of Peru",
+    "pavilion": "Peru",
     "category": "Country",
     "visited": false,
     "location": "Commons C",
@@ -1060,7 +1060,7 @@
   {
     "id": "126",
     "pavilionCode": "C",
-    "pavilion": "Republic of the Philippines",
+    "pavilion": "Philippines",
     "category": "Country",
     "visited": false,
     "countryCode": "ph"
@@ -1068,7 +1068,7 @@
   {
     "id": "127",
     "pavilionCode": "P",
-    "pavilion": "Republic of Poland",
+    "pavilion": "Poland",
     "category": "Country",
     "visited": false,
     "countryCode": "pl"
@@ -1076,7 +1076,7 @@
   {
     "id": "128",
     "pavilionCode": "P",
-    "pavilion": "State of Qatar",
+    "pavilion": "Qatar",
     "category": "Country",
     "visited": false,
     "countryCode": "qa"
@@ -1090,17 +1090,9 @@
     "countryCode": "ro"
   },
   {
-    "id": "130",
-    "pavilionCode": "P",
-    "pavilion": "Russian Federation",
-    "category": "Country",
-    "visited": false,
-    "countryCode": "ru"
-  },
-  {
     "id": "131",
     "pavilionCode": "P",
-    "pavilion": "Republic of Rwanda",
+    "pavilion": "Rwanda",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1136,7 +1128,7 @@
   {
     "id": "135",
     "pavilionCode": "C",
-    "pavilion": "Independent State of Samoa",
+    "pavilion": "Samoa",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1145,7 +1137,7 @@
   {
     "id": "136",
     "pavilionCode": "S",
-    "pavilion": "Republic of San Marino",
+    "pavilion": "San Marino",
     "category": "Country",
     "visited": false,
     "countryCode": "sm"
@@ -1153,7 +1145,7 @@
   {
     "id": "137",
     "pavilionCode": "C",
-    "pavilion": "Democratic Republic of Sao Tome and Principe",
+    "pavilion": "Sao Tome and Principe",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1162,7 +1154,7 @@
   {
     "id": "138",
     "pavilionCode": "C",
-    "pavilion": "Republic of Senegal",
+    "pavilion": "Senegal",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1171,7 +1163,7 @@
   {
     "id": "139",
     "pavilionCode": "S",
-    "pavilion": "Republic of Serbia",
+    "pavilion": "Serbia",
     "category": "Country",
     "visited": false,
     "countryCode": "rs"
@@ -1179,7 +1171,7 @@
   {
     "id": "140",
     "pavilionCode": "C",
-    "pavilion": "Republic of Seychelles",
+    "pavilion": "Seychelles",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1188,7 +1180,7 @@
   {
     "id": "141",
     "pavilionCode": "S",
-    "pavilion": "Republic of Sierra Leone",
+    "pavilion": "Sierra Leone",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -1205,7 +1197,7 @@
   {
     "id": "143",
     "pavilionCode": "S",
-    "pavilion": "Republic of Slovenia",
+    "pavilion": "Slovenia",
     "category": "Country",
     "visited": false,
     "countryCode": "si"
@@ -1222,7 +1214,7 @@
   {
     "id": "145",
     "pavilionCode": "C",
-    "pavilion": "Federal Republic of Somalia",
+    "pavilion": "Somalia",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1231,7 +1223,7 @@
   {
     "id": "146",
     "pavilionCode": "P",
-    "pavilion": "Republic of South Africa",
+    "pavilion": "South Africa",
     "category": "Country",
     "visited": false,
     "countryCode": "za"
@@ -1239,7 +1231,7 @@
   {
     "id": "147",
     "pavilionCode": "C",
-    "pavilion": "Republic of South Sudan",
+    "pavilion": "South Sudan",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1248,7 +1240,7 @@
   {
     "id": "148",
     "pavilionCode": "S",
-    "pavilion": "Kingdom of Spain",
+    "pavilion": "Spain",
     "category": "Country",
     "visited": false,
     "countryCode": "es"
@@ -1256,7 +1248,7 @@
   {
     "id": "149",
     "pavilionCode": "C",
-    "pavilion": "Democratic Socialist Republic of Sri Lanka",
+    "pavilion": "Sri Lanka",
     "category": "Country",
     "visited": false,
     "countryCode": "lk"
@@ -1264,7 +1256,7 @@
   {
     "id": "150",
     "pavilionCode": "C",
-    "pavilion": "Republic of the Sudan",
+    "pavilion": "Sudan",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1273,7 +1265,7 @@
   {
     "id": "151",
     "pavilionCode": "P",
-    "pavilion": "Republic of Suriname",
+    "pavilion": "Suriname",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1282,7 +1274,7 @@
   {
     "id": "152",
     "pavilionCode": "P",
-    "pavilion": "Kingdom of Sweden",
+    "pavilion": "Sweden",
     "category": "Country",
     "visited": false,
     "countryCode": "se"
@@ -1290,7 +1282,7 @@
   {
     "id": "153",
     "pavilionCode": "P",
-    "pavilion": "Swiss Confederation",
+    "pavilion": "Switzerland",
     "category": "Country",
     "visited": false,
     "countryCode": "ch"
@@ -1306,7 +1298,7 @@
   {
     "id": "155",
     "pavilionCode": "P",
-    "pavilion": "Republic of Tajikistan",
+    "pavilion": "Tajikistan",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1315,7 +1307,7 @@
   {
     "id": "156",
     "pavilionCode": "P",
-    "pavilion": "United Republic of Tanzania",
+    "pavilion": "Tanzania",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1333,7 +1325,7 @@
   {
     "id": "158",
     "pavilionCode": "C",
-    "pavilion": "Kingdom of Tonga",
+    "pavilion": "Tonga",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1342,7 +1334,7 @@
   {
     "id": "159",
     "pavilionCode": "C",
-    "pavilion": "Republic of Trinidad and Tobago",
+    "pavilion": "Trinidad and Tobago",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1351,7 +1343,7 @@
   {
     "id": "160",
     "pavilionCode": "C",
-    "pavilion": "Republic of Tunisia",
+    "pavilion": "Tunisia",
     "category": "Country",
     "visited": false,
     "countryCode": "tn"
@@ -1359,7 +1351,7 @@
   {
     "id": "161",
     "pavilionCode": "P",
-    "pavilion": "Republic of Turkey",
+    "pavilion": "Turkey",
     "category": "Country",
     "visited": false,
     "countryCode": "tr"
@@ -1385,7 +1377,7 @@
   {
     "id": "164",
     "pavilionCode": "P",
-    "pavilion": "Republic of Uganda",
+    "pavilion": "Uganda",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1418,7 +1410,7 @@
   {
     "id": "168",
     "pavilionCode": "P",
-    "pavilion": "Oriental Republic of Uruguay",
+    "pavilion": "Uruguay",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1427,7 +1419,7 @@
   {
     "id": "169",
     "pavilionCode": "P",
-    "pavilion": "Republic of Uzbekistan",
+    "pavilion": "Uzbekistan",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1436,7 +1428,7 @@
   {
     "id": "170",
     "pavilionCode": "C",
-    "pavilion": "Republic of Vanuatu",
+    "pavilion": "Vanuatu",
     "category": "Country",
     "visited": false,
     "location": "Commons B",
@@ -1445,7 +1437,7 @@
   {
     "id": "171",
     "pavilionCode": "P",
-    "pavilion": "Bolivarian Republic of Venezuela",
+    "pavilion": "Venezuela",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1454,7 +1446,7 @@
   {
     "id": "172",
     "pavilionCode": "C",
-    "pavilion": "Socialist Republic of Vietnam",
+    "pavilion": "Vietnam",
     "category": "Country",
     "visited": false,
     "countryCode": "vn"
@@ -1462,7 +1454,7 @@
   {
     "id": "173",
     "pavilionCode": "C",
-    "pavilion": "Republic of Yemen",
+    "pavilion": "Yemen",
     "category": "Country",
     "visited": false,
     "countryCode": "ye"
@@ -1470,7 +1462,7 @@
   {
     "id": "174",
     "pavilionCode": "P",
-    "pavilion": "Republic of Zambia",
+    "pavilion": "Zambia",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
@@ -1479,7 +1471,7 @@
   {
     "id": "175",
     "pavilionCode": "P",
-    "pavilion": "Republic of Zimbabwe",
+    "pavilion": "Zimbabwe",
     "category": "Country",
     "visited": false,
     "location": "Commons A",
