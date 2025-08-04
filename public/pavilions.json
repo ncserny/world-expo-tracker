@@ -49,7 +49,7 @@
   },
   {
     "id": "7",
-    "pavilionCode": "E",
+    "pavilionCode": "E 10",
     "pavilion": "Japan",
     "category": "Country",
     "visited": false,
@@ -57,7 +57,7 @@
   },
   {
     "id": "8",
-    "pavilionCode": "X",
+    "pavilionCode": "X 01",
     "pavilion": "Better Co-Being",
     "category": "Signature",
     "visited": false,
@@ -65,7 +65,7 @@
   },
   {
     "id": "9",
-    "pavilionCode": "X",
+    "pavilionCode": "X 02",
     "pavilion": "Future of Life",
     "category": "Signature",
     "visited": false,
@@ -73,15 +73,15 @@
   },
   {
     "id": "10",
-    "pavilionCode": "X",
+    "pavilionCode": "X 03",
     "pavilion": "Playground of Life: Jellyfish",
     "category": "Signature",
     "visited": false
   },
   {
     "id": "11",
-    "pavilionCode": "X",
-    "pavilion": "Null²",
+    "pavilionCode": "X 04",
+    "pavilion": "null²",
     "category": "Signature",
     "visited": false,
     "reserve": "reservation needed"
@@ -112,7 +112,7 @@
   },
   {
     "id": "15",
-    "pavilionCode": "E",
+    "pavilionCode": "E 08",
     "pavilion": "Electric Power Eggs of Possibilities",
     "category": "Private Sector",
     "visited": false,
@@ -128,7 +128,7 @@
   },
   {
     "id": "17",
-    "pavilionCode": "E",
+    "pavilionCode": "E 03",
     "pavilion": "NTT",
     "category": "Private Sector",
     "visited": false,
@@ -136,8 +136,8 @@
   },
   {
     "id": "18",
-    "pavilionCode": "E",
-    "pavilion": "Panasonic Group",
+    "pavilionCode": "E 06",
+    "pavilion": "Panasonic The Land of NOMO",
     "category": "Private Sector",
     "visited": false,
     "reserve": "reservation needed"
@@ -151,8 +151,8 @@
   },
   {
     "id": "20",
-    "pavilionCode": "E",
-    "pavilion": "Kansai",
+    "pavilionCode": "E 01",
+    "pavilion": "Kansai Pavilion",
     "category": "Other",
     "visited": false,
     "reserve": "reservation needed"
@@ -1519,9 +1519,9 @@
   },
   {
     "id": "179",
-    "pavilionCode": "P",
-    "pavilion": "Women's Pavilion",
-    "category": "Signature",
+    "pavilionCode": "E 09",
+    "pavilion": "Women's Pavilion in collaboration with Cartier",
+    "category": "Private Sector",
     "visited": false,
     "reserve": "reservation needed"
   },
@@ -1599,7 +1599,7 @@
   },
   {
     "id": "189",
-    "pavilionCode": "W",
+    "pavilionCode": "E 07",
     "pavilion": "Sumitomo Pavilion",
     "category": "Private Sector",
     "visited": false,
@@ -1607,30 +1607,25 @@
   },
   {
     "id": "190",
-    "pavilionCode": "E",
-    "pavilion": "Japan Association for the 2025 World Exposition",
-    "category": "Other",
-    "visited": false
+    "pavilionCode": "E 05",
+    "pavilion": "Mitsubishi Pavilion",
+    "category": "Private Sector",
+    "visited": false,
+    "reserve": "reservation needed"
   },
   {
     "id": "191",
-    "pavilionCode": "C",
-    "pavilion": "Osaka Pavilion",
-    "category": "Other",
-    "visited": false
+    "pavilionCode": "P 07",
+    "pavilion": "Advanced Air Mobility Station",
+    "category": "Private Sector",
+    "visited": false,
+    "reserve": "reservation needed"
   },
   {
     "id": "192",
-    "pavilionCode": "P",
-    "pavilion": "Civil Society Pavilion",
-    "category": "Other",
-    "visited": false
-  },
-  {
-    "id": "193",
-    "pavilionCode": "E",
-    "pavilion": "Healthcare and Medical Pavilion",
-    "category": "Other",
+    "pavilionCode": "P 14",
+    "pavilion": "Robot & Mobility Station",
+    "category": "Private Sector",
     "visited": false,
     "reserve": "reservation needed"
   },
@@ -1743,6 +1738,34 @@
     "pavilionCode": "P 31",
     "pavilion": "International Red Cross and Red Crescent Movement",
     "category": "Other",
+    "visited": false
+  },
+  {
+    "id": "208",
+    "pavilionCode": "X 05",
+    "pavilion": "Dynamic Equilibrium of Life",
+    "category": "Signature",
+    "visited": false
+  },
+  {
+    "id": "209",
+    "pavilionCode": "X 06",
+    "pavilion": "Live Earth Journey",
+    "category": "Signature",
+    "visited": false
+  },
+  {
+    "id": "210",
+    "pavilionCode": "X 07",
+    "pavilion": "Earth Mart",
+    "category": "Signature",
+    "visited": false
+  },
+  {
+    "id": "211",
+    "pavilionCode": "X 08",
+    "pavilion": "Dialogue Theater - sign of life",
+    "category": "Signature",
     "visited": false
   }
 ]
