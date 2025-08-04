@@ -28,7 +28,7 @@
     "pavilionCode": "C",
     "pavilion": "Saudi Arabia",
     "category": "Country",
-    "visited": true,
+    "visited": false,
     "countryCode": "sa"
   },
   {
@@ -36,7 +36,7 @@
     "pavilionCode": "S",
     "pavilion": "Singapore",
     "category": "Country",
-    "visited": true,
+    "visited": false,
     "countryCode": "sg"
   },
   {
@@ -44,7 +44,7 @@
     "pavilionCode": "C",
     "pavilion": "Thailand",
     "category": "Country",
-    "visited": true,
+    "visited": false,
     "countryCode": "th"
   },
   {
@@ -52,7 +52,7 @@
     "pavilionCode": "E",
     "pavilion": "Japan",
     "category": "Country",
-    "visited": true,
+    "visited": false,
     "reserve": "01.08 18:30",
     "countryCode": "jp"
   },
@@ -529,7 +529,7 @@
     "pavilionCode": "P",
     "pavilion": "Finland",
     "category": "Country",
-    "visited": true,
+    "visited": false,
     "countryCode": "fi"
   },
   {
@@ -634,7 +634,7 @@
     "pavilionCode": "P",
     "pavilion": "Iceland",
     "category": "Country",
-    "visited": true,
+    "visited": false,
     "countryCode": "is"
   },
   {
@@ -642,7 +642,7 @@
     "pavilionCode": "C",
     "pavilion": "India",
     "category": "Country",
-    "visited": true,
+    "visited": false,
     "countryCode": "in"
   },
   {
@@ -650,7 +650,7 @@
     "pavilionCode": "C",
     "pavilion": "Indonesia",
     "category": "Country",
-    "visited": true,
+    "visited": false,
     "countryCode": "id"
   },
   {
@@ -709,7 +709,7 @@
     "pavilionCode": "C",
     "pavilion": "Korea",
     "category": "Country",
-    "visited": true,
+    "visited": false,
     "countryCode": "kr"
   },
   {
@@ -1624,5 +1624,13 @@
     "pavilion": "Disaster Risk Reduction and Reconstruction Pavilion",
     "category": "Other",
     "visited": false
-  }
+  },
+  {
+    "id": "195",
+    "pavilionCode": "P 12",
+    "pavilion": "France",
+    "category": "Country",
+    "visited": false,
+    "countryCode": "fr"
+  },
 ]
