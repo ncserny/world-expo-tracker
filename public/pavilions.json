@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "pavilionCode": "S",
+    "pavilionCode": "S 09",
     "pavilion": "The Holy See",
     "category": "Country",
     "visited": false,
@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "pavilionCode": "S",
+    "pavilionCode": "S 13",
     "pavilion": "Netherlands",
     "category": "Country",
     "visited": false,
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "pavilionCode": "S",
+    "pavilionCode": "S 15",
     "pavilion": "Oman",
     "category": "Country",
     "visited": false,
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "pavilionCode": "C",
+    "pavilionCode": "C 14",
     "pavilion": "Saudi Arabia",
     "category": "Country",
     "visited": false,
@@ -53,6 +53,7 @@
     "pavilion": "Japan",
     "category": "Country",
     "visited": false,
+    "reserve": "01.08 18:30",
     "countryCode": "jp"
   },
   {
