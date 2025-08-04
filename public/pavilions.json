@@ -120,7 +120,7 @@
   },
   {
     "id": "16",
-    "pavilionCode": "W",
+    "pavilionCode": "W 07",
     "pavilion": "Gundam Next Future",
     "category": "Private Sector",
     "visited": false,
@@ -144,7 +144,7 @@
   },
   {
     "id": "19",
-    "pavilionCode": "W",
+    "pavilionCode": "W 04",
     "pavilion": "Iida Group and Osaka Metropolitan University Joint",
     "category": "Private Sector",
     "visited": false
@@ -1503,11 +1503,10 @@
   },
   {
     "id": "177",
-    "pavilionCode": "S",
-    "pavilion": "Alif - The Mobility Pavilion",
-    "category": "Signature",
-    "visited": false,
-    "reserve": "reservation needed"
+    "pavilionCode": "L 04",
+    "pavilion": "Mobility Experience",
+    "category": "Other",
+    "visited": false
   },
   {
     "id": "178",
