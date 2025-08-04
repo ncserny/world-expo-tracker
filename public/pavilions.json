@@ -1690,5 +1690,59 @@
     "category": "Country",
     "visited": false,
     "countryCode": "jo"
+  },
+  {
+    "id": "201",
+    "pavilionCode": "P 29",
+    "pavilion": "ASEAN (The Association of Southeast Asian Nations)",
+    "category": "Other",
+    "location": "International Organization Pavilion",
+    "visited": false
+  },
+  {
+    "id": "202",
+    "pavilionCode": "P 29",
+    "pavilion": "The International Science and Technology Center",
+    "category": "Other",
+    "location": "International Organization Pavilion",
+    "visited": false
+  },
+  {
+    "id": "203",
+    "pavilionCode": "P 29",
+    "pavilion": "The International Solar Alliance",
+    "category": "Other",
+    "location": "International Organization Pavilion",
+    "visited": false
+  },
+  {
+    "id": "204",
+    "pavilionCode": "P 29",
+    "pavilion": "The ITER Organization",
+    "category": "Other",
+    "location": "International Organization Pavilion",
+    "visited": false
+  },
+  {
+    "id": "205",
+    "pavilionCode": "P 29",
+    "pavilion": "World Expo Museum",
+    "category": "Other",
+    "location": "International Organization Pavilion",
+    "visited": false
+  },
+  {
+    "id": "206",
+    "pavilionCode": "P 30",
+    "pavilion": "The United Nations",
+    "category": "Other",
+    "visited": false
+  },
+  {
+    "id": "207",
+    "pavilionCode": "P 31",
+    "pavilion": "International Red Cross and Red Crescent Movement",
+    "category": "Other",
+    "visited": false
   }
 ]
