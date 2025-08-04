@@ -41,7 +41,7 @@
   },
   {
     "id": "6",
-    "pavilionCode": "C",
+    "pavilionCode": "C 12",
     "pavilion": "Thailand",
     "category": "Country",
     "visited": false,
@@ -53,7 +53,6 @@
     "pavilion": "Japan",
     "category": "Country",
     "visited": false,
-    "reserve": "01.08 18:30",
     "countryCode": "jp"
   },
   {
@@ -89,7 +88,7 @@
   },
   {
     "id": "12",
-    "pavilionCode": "C",
+    "pavilionCode": "C 03",
     "pavilion": "Germany",
     "category": "Country",
     "visited": false,
@@ -185,19 +184,19 @@
   },
   {
     "id": "24",
-    "pavilionCode": "C",
+    "pavilionCode": "C 05",
     "pavilion": "Armenia",
     "category": "Country",
+    "location": "Commons F",
     "visited": false,
     "countryCode": "am"
   },
   {
     "id": "25",
-    "pavilionCode": "C",
+    "pavilionCode": "C 15",
     "pavilion": "Australia",
     "category": "Country",
     "visited": false,
-    "reserve": "04.08 12:15",
     "countryCode": "au"
   },
   {
@@ -210,7 +209,7 @@
   },
   {
     "id": "27",
-    "pavilionCode": "C",
+    "pavilionCode": "C 07",
     "pavilion": "Azerbaijan",
     "category": "Country",
     "visited": false,
@@ -226,7 +225,7 @@
   },
   {
     "id": "29",
-    "pavilionCode": "C",
+    "pavilionCode": "C 20",
     "pavilion": "Bangladesh",
     "category": "Country",
     "visited": false,
@@ -260,7 +259,7 @@
   },
   {
     "id": "33",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Benin",
     "category": "Country",
     "visited": false,
@@ -295,9 +294,10 @@
   },
   {
     "id": "37",
-    "pavilionCode": "C",
+    "pavilionCode": "C 05",
     "pavilion": "Brunei Darussalam",
     "category": "Country",
+    "location": "Commons F",
     "visited": false,
     "countryCode": "bn"
   },
@@ -355,15 +355,16 @@
   },
   {
     "id": "44",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Cabo Verde",
     "category": "Country",
+    "location": "Commons B",
     "visited": false,
     "countryCode": "cv"
   },
   {
     "id": "45",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Central African Republic",
     "category": "Country",
     "visited": false,
@@ -372,9 +373,10 @@
   },
   {
     "id": "46",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Chad",
     "category": "Country",
+    "location": "Commons B",
     "visited": false,
     "countryCode": "td"
   },
@@ -423,7 +425,7 @@
   },
   {
     "id": "52",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Cote d'Ivoire",
     "category": "Country",
     "visited": false,
@@ -465,7 +467,7 @@
   },
   {
     "id": "57",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Djibouti",
     "category": "Country",
     "visited": false,
@@ -474,7 +476,7 @@
   },
   {
     "id": "58",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Dominican Republic",
     "category": "Country",
     "visited": false,
@@ -483,8 +485,8 @@
   },
   {
     "id": "59",
-    "pavilionCode": "C",
-    "pavilion": "Arab Egypt",
+    "pavilionCode": "C 22",
+    "pavilion": "Egypt",
     "category": "Country",
     "visited": false,
     "countryCode": "eg"
@@ -509,7 +511,7 @@
   },
   {
     "id": "62",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Ethiopia",
     "category": "Country",
     "visited": false,
@@ -518,9 +520,10 @@
   },
   {
     "id": "63",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Fiji",
     "category": "Country",
+    "location": "Commons B",
     "visited": false,
     "countryCode": "fj"
   },
@@ -542,7 +545,7 @@
   },
   {
     "id": "66",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Gambia",
     "category": "Country",
     "visited": false,
@@ -596,7 +599,7 @@
   },
   {
     "id": "72",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Guyana",
     "category": "Country",
     "visited": false,
@@ -605,7 +608,7 @@
   },
   {
     "id": "73",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Haiti",
     "category": "Country",
     "visited": false,
@@ -639,7 +642,7 @@
   },
   {
     "id": "77",
-    "pavilionCode": "C",
+    "pavilionCode": "C 17",
     "pavilion": "India",
     "category": "Country",
     "visited": false,
@@ -647,7 +650,7 @@
   },
   {
     "id": "78",
-    "pavilionCode": "C",
+    "pavilionCode": "C 16",
     "pavilion": "Indonesia",
     "category": "Country",
     "visited": false,
@@ -680,7 +683,7 @@
   },
   {
     "id": "82",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Jamaica",
     "category": "Country",
     "visited": false,
@@ -689,9 +692,10 @@
   },
   {
     "id": "83",
-    "pavilionCode": "C",
+    "pavilionCode": "C 05",
     "pavilion": "Kazakhstan",
     "category": "Country",
+    "location": "Commons F",
     "visited": false,
     "countryCode": "kz"
   },
@@ -706,7 +710,7 @@
   },
   {
     "id": "85",
-    "pavilionCode": "C",
+    "pavilionCode": "C 04",
     "pavilion": "Korea",
     "category": "Country",
     "visited": false,
@@ -757,7 +761,7 @@
   },
   {
     "id": "91",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Lesotho",
     "category": "Country",
     "visited": false,
@@ -783,7 +787,7 @@
   },
   {
     "id": "94",
-    "pavilionCode": "C",
+    "pavilionCode": "C 02",
     "pavilion": "Luxembourg",
     "category": "Country",
     "visited": false,
@@ -843,11 +847,11 @@
   },
   {
     "id": "101",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Mauritania",
     "category": "Country",
     "visited": false,
-    "location": "Commons A",
+    "location": "Commons B",
     "countryCode": "mr"
   },
   {
@@ -861,7 +865,7 @@
   },
   {
     "id": "103",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Micronesia",
     "category": "Country",
     "visited": false,
@@ -878,7 +882,7 @@
   },
   {
     "id": "105",
-    "pavilionCode": "S",
+    "pavilionCode": "C 10",
     "pavilion": "Monaco",
     "category": "Country",
     "visited": false,
@@ -937,7 +941,7 @@
   },
   {
     "id": "112",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Nauru",
     "category": "Country",
     "visited": false,
@@ -946,11 +950,10 @@
   },
   {
     "id": "113",
-    "pavilionCode": "C",
+    "pavilionCode": "C 01",
     "pavilion": "Nepal",
     "category": "Country",
     "visited": false,
-    "location": "Commons B",
     "countryCode": "np"
   },
   {
@@ -1041,11 +1044,11 @@
   },
   {
     "id": "124",
-    "pavilionCode": "P",
+    "pavilionCode": "C 23",
     "pavilion": "Paraguay",
     "category": "Country",
     "visited": false,
-    "location": "Commons A",
+    "location": "Commons B",
     "countryCode": "py"
   },
   {
@@ -1118,7 +1121,7 @@
   },
   {
     "id": "134",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Saint Vincent and the Grenadines",
     "category": "Country",
     "visited": false,
@@ -1153,16 +1156,15 @@
   },
   {
     "id": "138",
-    "pavilionCode": "C",
+    "pavilionCode": "C 21",
     "pavilion": "Senegal",
     "category": "Country",
     "visited": false,
-    "location": "Commons B",
     "countryCode": "sn"
   },
   {
     "id": "139",
-    "pavilionCode": "S",
+    "pavilionCode": "C 19",
     "pavilion": "Serbia",
     "category": "Country",
     "visited": false,
@@ -1179,11 +1181,11 @@
   },
   {
     "id": "141",
-    "pavilionCode": "S",
+    "pavilionCode": "C 23",
     "pavilion": "Sierra Leone",
     "category": "Country",
     "visited": false,
-    "location": "Commons D",
+    "location": "Commons B",
     "countryCode": "sl"
   },
   {
@@ -1213,7 +1215,7 @@
   },
   {
     "id": "145",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Somalia",
     "category": "Country",
     "visited": false,
@@ -1239,7 +1241,7 @@
   },
   {
     "id": "148",
-    "pavilionCode": "S",
+    "pavilionCode": "C 13",
     "pavilion": "Spain",
     "category": "Country",
     "visited": false,
@@ -1306,11 +1308,11 @@
   },
   {
     "id": "156",
-    "pavilionCode": "P",
+    "pavilionCode": "C 23",
     "pavilion": "Tanzania",
     "category": "Country",
     "visited": false,
-    "location": "Commons A",
+    "location": "Commons B",
     "countryCode": "tz"
   },
   {
@@ -1350,7 +1352,7 @@
   },
   {
     "id": "161",
-    "pavilionCode": "P",
+    "pavilionCode": "C 11",
     "pavilion": "Turkey",
     "category": "Country",
     "visited": false,
@@ -1367,7 +1369,7 @@
   },
   {
     "id": "163",
-    "pavilionCode": "C",
+    "pavilionCode": "C 23",
     "pavilion": "Tuvalu",
     "category": "Country",
     "visited": false,
@@ -1418,11 +1420,10 @@
   },
   {
     "id": "169",
-    "pavilionCode": "P",
+    "pavilionCode": "C 18",
     "pavilion": "Uzbekistan",
     "category": "Country",
     "visited": false,
-    "location": "Commons A",
     "countryCode": "uz"
   },
   {
@@ -1461,20 +1462,20 @@
   },
   {
     "id": "174",
-    "pavilionCode": "P",
+    "pavilionCode": "C 23",
     "pavilion": "Zambia",
     "category": "Country",
     "visited": false,
-    "location": "Commons A",
+    "location": "Commons B",
     "countryCode": "zm"
   },
   {
     "id": "175",
-    "pavilionCode": "P",
+    "pavilionCode": "C 23",
     "pavilion": "Zimbabwe",
     "category": "Country",
     "visited": false,
-    "location": "Commons A",
+    "location": "Commons B",
     "countryCode": "zw"
   },
   {
@@ -1632,5 +1633,14 @@
     "category": "Country",
     "visited": false,
     "countryCode": "fr"
+  },
+  {
+    "id": "196",
+    "pavilionCode": "C 23",
+    "pavilion": "Timor-Leste",
+    "category": "Country",
+    "location": "Commons B",
+    "visited": false,
+    "countryCode": "tl"
   }
 ]
