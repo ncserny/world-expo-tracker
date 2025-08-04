@@ -33,7 +33,7 @@
   },
   {
     "id": "5",
-    "pavilionCode": "S",
+    "pavilionCode": "S 11",
     "pavilion": "Singapore",
     "category": "Country",
     "visited": false,
@@ -159,7 +159,7 @@
   },
   {
     "id": "21",
-    "pavilionCode": "S",
+    "pavilionCode": "S 05",
     "pavilion": "Algeria",
     "category": "Country",
     "visited": false,
@@ -167,7 +167,7 @@
   },
   {
     "id": "22",
-    "pavilionCode": "S",
+    "pavilionCode": "S 23",
     "pavilion": "Angola",
     "category": "Country",
     "visited": false,
@@ -175,7 +175,7 @@
   },
   {
     "id": "23",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Antigua and Barbuda",
     "category": "Country",
     "visited": false,
@@ -242,7 +242,7 @@
   },
   {
     "id": "31",
-    "pavilionCode": "S",
+    "pavilionCode": "S 08",
     "pavilion": "Belgium",
     "category": "Country",
     "visited": false,
@@ -250,7 +250,7 @@
   },
   {
     "id": "32",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Belize",
     "category": "Country",
     "visited": false,
@@ -268,7 +268,7 @@
   },
   {
     "id": "34",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Bhutan",
     "category": "Country",
     "visited": false,
@@ -303,7 +303,7 @@
   },
   {
     "id": "38",
-    "pavilionCode": "S",
+    "pavilionCode": "S 12",
     "pavilion": "Bulgaria",
     "category": "Country",
     "visited": false,
@@ -311,7 +311,7 @@
   },
   {
     "id": "39",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Burkina Faso",
     "category": "Country",
     "visited": false,
@@ -329,16 +329,15 @@
   },
   {
     "id": "41",
-    "pavilionCode": "S",
+    "pavilionCode": "S 04",
     "pavilion": "Cambodia",
     "category": "Country",
     "visited": false,
-    "location": "Commons C",
     "countryCode": "kh"
   },
   {
     "id": "42",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Cameroon",
     "category": "Country",
     "visited": false,
@@ -382,11 +381,10 @@
   },
   {
     "id": "47",
-    "pavilionCode": "S",
+    "pavilionCode": "S 02",
     "pavilion": "Chile",
     "category": "Country",
     "visited": false,
-    "location": "Commons C",
     "countryCode": "cl"
   },
   {
@@ -416,8 +414,8 @@
   },
   {
     "id": "51",
-    "pavilionCode": "S",
-    "pavilion": "Congo",
+    "pavilionCode": "S 14",
+    "pavilion": "Democratic Republic of the Congo",
     "category": "Country",
     "visited": false,
     "location": "Commons D",
@@ -434,7 +432,7 @@
   },
   {
     "id": "53",
-    "pavilionCode": "S",
+    "pavilionCode": "S 01",
     "pavilion": "Croatia",
     "category": "Country",
     "visited": false,
@@ -443,9 +441,10 @@
   },
   {
     "id": "54",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Cuba",
     "category": "Country",
+    "location": "Commons D",
     "visited": false,
     "countryCode": "cu"
   },
@@ -493,7 +492,7 @@
   },
   {
     "id": "60",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Equatorial Guinea",
     "category": "Country",
     "visited": false,
@@ -537,9 +536,10 @@
   },
   {
     "id": "65",
-    "pavilionCode": "S",
+    "pavilionCode": "S 01",
     "pavilion": "Gabon",
     "category": "Country",
+    "location": "Commons C",
     "visited": false,
     "countryCode": "ga"
   },
@@ -572,7 +572,7 @@
   },
   {
     "id": "69",
-    "pavilionCode": "S",
+    "pavilionCode": "S 01",
     "pavilion": "Guatemala",
     "category": "Country",
     "visited": false,
@@ -581,11 +581,11 @@
   },
   {
     "id": "70",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Guinea",
     "category": "Country",
     "visited": false,
-    "location": "Commons A",
+    "location": "Commons D",
     "countryCode": "gn"
   },
   {
@@ -617,7 +617,7 @@
   },
   {
     "id": "74",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Honduras",
     "category": "Country",
     "visited": false,
@@ -626,7 +626,7 @@
   },
   {
     "id": "75",
-    "pavilionCode": "S",
+    "pavilionCode": "S 16",
     "pavilion": "Hungary",
     "category": "Country",
     "visited": false,
@@ -666,7 +666,7 @@
   },
   {
     "id": "80",
-    "pavilionCode": "S",
+    "pavilionCode": "S 01",
     "pavilion": "Israel",
     "category": "Country",
     "visited": false,
@@ -675,7 +675,7 @@
   },
   {
     "id": "81",
-    "pavilionCode": "S",
+    "pavilionCode": "S 09",
     "pavilion": "Italy",
     "category": "Country",
     "visited": false,
@@ -744,7 +744,7 @@
   },
   {
     "id": "89",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Lao People's Democratic Republic",
     "category": "Country",
     "visited": false,
@@ -753,9 +753,10 @@
   },
   {
     "id": "90",
-    "pavilionCode": "S",
+    "pavilionCode": "S 06",
     "pavilion": "Latvia",
     "category": "Country",
+    "location": "The Baltic Pavilion",
     "visited": false,
     "countryCode": "lv"
   },
@@ -770,7 +771,7 @@
   },
   {
     "id": "92",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Liberia",
     "category": "Country",
     "visited": false,
@@ -779,9 +780,10 @@
   },
   {
     "id": "93",
-    "pavilionCode": "S",
+    "pavilionCode": "S 06",
     "pavilion": "Lithuania",
     "category": "Country",
+    "location": "The Baltic Pavilion",
     "visited": false,
     "countryCode": "lt"
   },
@@ -795,7 +797,7 @@
   },
   {
     "id": "95",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Madagascar",
     "category": "Country",
     "visited": false,
@@ -821,7 +823,7 @@
   },
   {
     "id": "98",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Mali",
     "category": "Country",
     "visited": false,
@@ -838,7 +840,7 @@
   },
   {
     "id": "100",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Marshall Islands",
     "category": "Country",
     "visited": false,
@@ -874,9 +876,10 @@
   },
   {
     "id": "104",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Moldova",
     "category": "Country",
+    "location": "Commons D",
     "visited": false,
     "countryCode": "md"
   },
@@ -890,17 +893,19 @@
   },
   {
     "id": "106",
-    "pavilionCode": "C",
+    "pavilionCode": "S 14",
     "pavilion": "Mongolia",
     "category": "Country",
+    "location": "Commons D",
     "visited": false,
     "countryCode": "mn"
   },
   {
     "id": "107",
-    "pavilionCode": "S",
+    "pavilionCode": "S 01",
     "pavilion": "Montenegro",
     "category": "Country",
+    "location": "Commons C",
     "visited": false,
     "countryCode": "me"
   },
@@ -984,11 +989,11 @@
   },
   {
     "id": "117",
-    "pavilionCode": "C",
+    "pavilionCode": "S 14",
     "pavilion": "Nigeria",
     "category": "Country",
     "visited": false,
-    "location": "Commons B",
+    "location": "Commons D",
     "countryCode": "ng"
   },
   {
@@ -1009,9 +1014,10 @@
   },
   {
     "id": "120",
-    "pavilionCode": "C",
+    "pavilionCode": "S 14",
     "pavilion": "Pakistan",
     "category": "Country",
+    "location": "Commons D",
     "visited": false,
     "countryCode": "pk"
   },
@@ -1026,7 +1032,7 @@
   },
   {
     "id": "122",
-    "pavilionCode": "S",
+    "pavilionCode": "S 01",
     "pavilion": "Panama",
     "category": "Country",
     "visited": false,
@@ -1070,7 +1076,7 @@
   },
   {
     "id": "127",
-    "pavilionCode": "P",
+    "pavilionCode": "S 20",
     "pavilion": "Poland",
     "category": "Country",
     "visited": false,
@@ -1086,7 +1092,7 @@
   },
   {
     "id": "129",
-    "pavilionCode": "S",
+    "pavilionCode": "S 21",
     "pavilion": "Romania",
     "category": "Country",
     "visited": false,
@@ -1139,19 +1145,20 @@
   },
   {
     "id": "136",
-    "pavilionCode": "S",
+    "pavilionCode": "S 01",
     "pavilion": "San Marino",
     "category": "Country",
+    "location": "Commons C",
     "visited": false,
     "countryCode": "sm"
   },
   {
     "id": "137",
-    "pavilionCode": "C",
+    "pavilionCode": "S 14",
     "pavilion": "Sao Tome and Principe",
     "category": "Country",
     "visited": false,
-    "location": "Commons B",
+    "location": "Commons D",
     "countryCode": "st"
   },
   {
@@ -1190,17 +1197,19 @@
   },
   {
     "id": "142",
-    "pavilionCode": "S",
-    "pavilion": "Slovak Republic",
+    "pavilionCode": "S 01",
+    "pavilion": "Slovakia",
     "category": "Country",
+    "location": "Commons C",
     "visited": false,
     "countryCode": "sk"
   },
   {
     "id": "143",
-    "pavilionCode": "S",
+    "pavilionCode": "S 01",
     "pavilion": "Slovenia",
     "category": "Country",
+    "location": "Commons C",
     "visited": false,
     "countryCode": "si"
   },
@@ -1232,11 +1241,11 @@
   },
   {
     "id": "147",
-    "pavilionCode": "C",
+    "pavilionCode": "S 14",
     "pavilion": "South Sudan",
     "category": "Country",
     "visited": false,
-    "location": "Commons B",
+    "location": "Commons D",
     "countryCode": "ss"
   },
   {
@@ -1257,11 +1266,11 @@
   },
   {
     "id": "150",
-    "pavilionCode": "C",
+    "pavilionCode": "S 14",
     "pavilion": "Sudan",
     "category": "Country",
     "visited": false,
-    "location": "Commons B",
+    "location": "Commons D",
     "countryCode": "sd"
   },
   {
@@ -1299,11 +1308,11 @@
   },
   {
     "id": "155",
-    "pavilionCode": "P",
+    "pavilionCode": "S 14",
     "pavilion": "Tajikistan",
     "category": "Country",
     "visited": false,
-    "location": "Commons A",
+    "location": "Commons D",
     "countryCode": "tj"
   },
   {
@@ -1317,7 +1326,7 @@
   },
   {
     "id": "157",
-    "pavilionCode": "S",
+    "pavilionCode": "S 14",
     "pavilion": "Togo",
     "category": "Country",
     "visited": false,
@@ -1344,7 +1353,7 @@
   },
   {
     "id": "160",
-    "pavilionCode": "C",
+    "pavilionCode": "S 03",
     "pavilion": "Tunisia",
     "category": "Country",
     "visited": false,
@@ -1387,15 +1396,16 @@
   },
   {
     "id": "165",
-    "pavilionCode": "S",
+    "pavilionCode": "S 01",
     "pavilion": "Ukraine",
     "category": "Country",
+    "location": "Commons C",
     "visited": false,
     "countryCode": "ua"
   },
   {
     "id": "166",
-    "pavilionCode": "P",
+    "pavilionCode": "S 22",
     "pavilion": "United Kingdom",
     "category": "Country",
     "visited": false,
@@ -1411,11 +1421,11 @@
   },
   {
     "id": "168",
-    "pavilionCode": "P",
+    "pavilionCode": "S 01",
     "pavilion": "Uruguay",
     "category": "Country",
     "visited": false,
-    "location": "Commons A",
+    "location": "Commons C",
     "countryCode": "uy"
   },
   {
@@ -1642,5 +1652,30 @@
     "location": "Commons B",
     "visited": false,
     "countryCode": "tl"
+  },
+  {
+    "id": "197",
+    "pavilionCode": "S 07",
+    "pavilion": "European Union",
+    "category": "Country",
+    "visited": false,
+    "countryCode": ""
+  },
+  {
+    "id": "198",
+    "pavilionCode": "S 14",
+    "pavilion": "Palestine",
+    "category": "Country",
+    "location": "Commons D",
+    "visited": false,
+    "countryCode": "ps"
+  },
+  {
+    "id": "199",
+    "pavilionCode": "S 17",
+    "pavilion": "Commons E Pavilion",
+    "category": "Other",
+    "location": "Commons E",
+    "visited": false
   }
 ]
