@@ -29,7 +29,7 @@ const Index = () => {
     return ["C", "E", "P", "S", "W", "X"];
   }, []);
 
-  // Filter pavilions based on search and filters
+  // Filter and sort pavilions based on search and filters
   const filteredPavilions = useMemo(() => {
     return pavilions.filter(pavilion => {
       const matchesSearch = pavilion.pavilion.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -46,7 +46,7 @@ const Index = () => {
                             (visitedFilter === 'unvisited' && !pavilion.visited);
       
       return matchesSearch && matchesCategory && matchesPavilionCode && matchesVisited;
-    });
+    }).sort((a, b) => a.pavilion.localeCompare(b.pavilion));
   }, [pavilions, searchTerm, selectedCategories, selectedPavilionCodes, visitedFilter]);
 
   // Calculate statistics
