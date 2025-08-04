@@ -11,7 +11,10 @@ interface PavilionCardProps {
 }
 
 const getBackgroundColorByCode = (code?: string) => {
-  switch (code) {
+  if (!code) return 'bg-muted border-border';
+  
+  const firstLetter = code.charAt(0);
+  switch (firstLetter) {
     case 'S':
       return 'bg-orange-50 border-orange-200';
     case 'C':
@@ -45,7 +48,10 @@ const getCategoryBadgeColor = (category: PavilionCategory) => {
 };
 
 const getPavilionCodeColor = (code?: string) => {
-  switch (code) {
+  if (!code) return 'bg-gray-500 text-white';
+  
+  const firstLetter = code.charAt(0);
+  switch (firstLetter) {
     case 'S':
       return 'bg-orange-500 text-white';
     case 'C':

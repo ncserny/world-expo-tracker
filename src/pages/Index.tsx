@@ -24,11 +24,10 @@ const Index = () => {
     }));
   }, [pavilionData, visitedPavilions]);
 
-  // Get unique pavilion codes and sort them
+  // Get available pavilion code letters
   const availablePavilionCodes = useMemo(() => {
-    const codes = Array.from(new Set(pavilions.map(p => p.pavilionCode).filter(Boolean))) as string[];
-    return codes.sort();
-  }, [pavilions]);
+    return ["C", "E", "P", "S", "W", "X"];
+  }, []);
 
   // Filter pavilions based on search and filters
   const filteredPavilions = useMemo(() => {
@@ -40,7 +39,7 @@ const Index = () => {
                              selectedCategories.includes(pavilion.category);
       
       const matchesPavilionCode = selectedPavilionCodes.length === 0 ||
-                                 (pavilion.pavilionCode && selectedPavilionCodes.includes(pavilion.pavilionCode));
+                                 (pavilion.pavilionCode && selectedPavilionCodes.some(code => pavilion.pavilionCode!.startsWith(code)));
       
       const matchesVisited = visitedFilter === 'all' ||
                             (visitedFilter === 'visited' && pavilion.visited) ||
