@@ -1450,15 +1450,6 @@
     "countryCode": "vu"
   },
   {
-    "id": "171",
-    "pavilionCode": "P",
-    "pavilion": "Venezuela",
-    "category": "Country",
-    "visited": false,
-    "location": "Commons A",
-    "countryCode": "ve"
-  },
-  {
     "id": "172",
     "pavilionCode": "P 15",
     "pavilion": "Vietnam",
@@ -1494,14 +1485,6 @@
     "countryCode": "zw"
   },
   {
-    "id": "176",
-    "pavilionCode": "C",
-    "pavilion": "Terra - The Sustainability Pavilion",
-    "category": "Signature",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
     "id": "177",
     "pavilionCode": "L 04",
     "pavilion": "Mobility Experience",
@@ -1509,89 +1492,9 @@
     "visited": false
   },
   {
-    "id": "178",
-    "pavilionCode": "P",
-    "pavilion": "Mission Possible - The Opportunity Pavilion",
-    "category": "Signature",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
     "id": "179",
     "pavilionCode": "E 09",
     "pavilion": "Women's Pavilion in collaboration with Cartier",
-    "category": "Private Sector",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
-    "id": "180",
-    "pavilionCode": "E",
-    "pavilion": "ENI",
-    "category": "Private Sector",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
-    "id": "181",
-    "pavilionCode": "E",
-    "pavilion": "Forevermark",
-    "category": "Private Sector",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
-    "id": "182",
-    "pavilionCode": "E",
-    "pavilion": "DP World",
-    "category": "Private Sector",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
-    "id": "183",
-    "pavilionCode": "P",
-    "pavilion": "Siemens",
-    "category": "Private Sector",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
-    "id": "184",
-    "pavilionCode": "E",
-    "pavilion": "Mastercard",
-    "category": "Private Sector",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
-    "id": "185",
-    "pavilionCode": "E",
-    "pavilion": "COP28 UAE",
-    "category": "Other",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
-    "id": "186",
-    "pavilionCode": "E",
-    "pavilion": "UAE National Pavilion",
-    "category": "Other",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
-    "id": "187",
-    "pavilionCode": "P",
-    "pavilion": "Regeneration Pavilion",
-    "category": "Signature",
-    "visited": false,
-    "reserve": "reservation needed"
-  },
-  {
-    "id": "188",
-    "pavilionCode": "E",
-    "pavilion": "Toyota Woven City Pavilion",
     "category": "Private Sector",
     "visited": false,
     "reserve": "reservation needed"
