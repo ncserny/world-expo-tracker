@@ -62,7 +62,7 @@
     "pavilion": "Better Co-Being",
     "category": "Signature",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "9",
@@ -70,7 +70,7 @@
     "pavilion": "Future of Life",
     "category": "Signature",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "10",
@@ -85,7 +85,7 @@
     "pavilion": "Null²",
     "category": "Signature",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "12",
@@ -117,7 +117,7 @@
     "pavilion": "Electric Power Eggs of Possibilities",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "16",
@@ -125,7 +125,7 @@
     "pavilion": "Gundam Next Future",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "17",
@@ -133,7 +133,7 @@
     "pavilion": "NTT",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "18",
@@ -141,7 +141,7 @@
     "pavilion": "Panasonic Group",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "19",
@@ -156,7 +156,7 @@
     "pavilion": "Kansai",
     "category": "Other",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "21",
@@ -1483,7 +1483,7 @@
     "pavilion": "Terra - The Sustainability Pavilion",
     "category": "Signature",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "177",
@@ -1491,7 +1491,7 @@
     "pavilion": "Alif - The Mobility Pavilion",
     "category": "Signature",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "178",
@@ -1499,7 +1499,7 @@
     "pavilion": "Mission Possible - The Opportunity Pavilion",
     "category": "Signature",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "179",
@@ -1507,7 +1507,7 @@
     "pavilion": "Women's Pavilion",
     "category": "Signature",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "180",
@@ -1515,7 +1515,7 @@
     "pavilion": "ENI",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "181",
@@ -1523,7 +1523,7 @@
     "pavilion": "Forevermark",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "182",
@@ -1531,7 +1531,7 @@
     "pavilion": "DP World",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "183",
@@ -1539,7 +1539,7 @@
     "pavilion": "Siemens",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "184",
@@ -1547,7 +1547,7 @@
     "pavilion": "Mastercard",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "185",
@@ -1555,7 +1555,7 @@
     "pavilion": "COP28 UAE",
     "category": "Other",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "186",
@@ -1563,7 +1563,7 @@
     "pavilion": "UAE National Pavilion",
     "category": "Other",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "187",
@@ -1571,7 +1571,7 @@
     "pavilion": "Regeneration Pavilion",
     "category": "Signature",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "188",
@@ -1579,7 +1579,7 @@
     "pavilion": "Toyota Woven City Pavilion",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "189",
@@ -1587,7 +1587,7 @@
     "pavilion": "Sumitomo Pavilion",
     "category": "Private Sector",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "190",
@@ -1616,7 +1616,7 @@
     "pavilion": "Healthcare and Medical Pavilion",
     "category": "Other",
     "visited": false,
-    "reserve": "needed"
+    "reserve": "reservation needed"
   },
   {
     "id": "194",
