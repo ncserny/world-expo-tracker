@@ -13,6 +13,7 @@ const Index = () => {
   const [visitedPavilions, setVisitedPavilions] = useLocalStorage<string[]>('visited-pavilions', []);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategories, setSelectedCategories] = useState<PavilionCategory[]>([]);
+  const [selectedPavilionCodes, setSelectedPavilionCodes] = useState<string[]>([]);
   const [visitedFilter, setVisitedFilter] = useState<'all' | 'visited' | 'unvisited'>('all');
 
   // Merge pavilions with visited status from localStorage
@@ -23,6 +24,12 @@ const Index = () => {
     }));
   }, [pavilionData, visitedPavilions]);
 
+  // Get unique pavilion codes and sort them
+  const availablePavilionCodes = useMemo(() => {
+    const codes = Array.from(new Set(pavilions.map(p => p.pavilionCode).filter(Boolean))) as string[];
+    return codes.sort();
+  }, [pavilions]);
+
   // Filter pavilions based on search and filters
   const filteredPavilions = useMemo(() => {
     return pavilions.filter(pavilion => {
@@ -32,13 +39,16 @@ const Index = () => {
       const matchesCategory = selectedCategories.length === 0 || 
                              selectedCategories.includes(pavilion.category);
       
+      const matchesPavilionCode = selectedPavilionCodes.length === 0 ||
+                                 (pavilion.pavilionCode && selectedPavilionCodes.includes(pavilion.pavilionCode));
+      
       const matchesVisited = visitedFilter === 'all' ||
                             (visitedFilter === 'visited' && pavilion.visited) ||
                             (visitedFilter === 'unvisited' && !pavilion.visited);
       
-      return matchesSearch && matchesCategory && matchesVisited;
+      return matchesSearch && matchesCategory && matchesPavilionCode && matchesVisited;
     });
-  }, [pavilions, searchTerm, selectedCategories, visitedFilter]);
+  }, [pavilions, searchTerm, selectedCategories, selectedPavilionCodes, visitedFilter]);
 
   // Calculate statistics
   const stats = useMemo(() => {
@@ -86,9 +96,18 @@ const Index = () => {
     );
   };
 
+  const handlePavilionCodeToggle = (code: string) => {
+    setSelectedPavilionCodes(prev => 
+      prev.includes(code) 
+        ? prev.filter(c => c !== code)
+        : [...prev, code]
+    );
+  };
+
   const handleClearFilters = () => {
     setSearchTerm('');
     setSelectedCategories([]);
+    setSelectedPavilionCodes([]);
     setVisitedFilter('all');
   };
 
@@ -146,6 +165,9 @@ const Index = () => {
           onSearchChange={setSearchTerm}
           selectedCategories={selectedCategories}
           onCategoryToggle={handleCategoryToggle}
+          selectedPavilionCodes={selectedPavilionCodes}
+          onPavilionCodeToggle={handlePavilionCodeToggle}
+          availablePavilionCodes={availablePavilionCodes}
           visitedFilter={visitedFilter}
           onVisitedFilterChange={setVisitedFilter}
           onClearFilters={handleClearFilters}

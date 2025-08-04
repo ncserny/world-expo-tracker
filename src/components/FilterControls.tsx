@@ -9,6 +9,9 @@ interface FilterControlsProps {
   onSearchChange: (term: string) => void;
   selectedCategories: PavilionCategory[];
   onCategoryToggle: (category: PavilionCategory) => void;
+  selectedPavilionCodes: string[];
+  onPavilionCodeToggle: (code: string) => void;
+  availablePavilionCodes: string[];
   visitedFilter: 'all' | 'visited' | 'unvisited';
   onVisitedFilterChange: (filter: 'all' | 'visited' | 'unvisited') => void;
   onClearFilters: () => void;
@@ -21,11 +24,14 @@ export const FilterControls = ({
   onSearchChange,
   selectedCategories,
   onCategoryToggle,
+  selectedPavilionCodes,
+  onPavilionCodeToggle,
+  availablePavilionCodes,
   visitedFilter,
   onVisitedFilterChange,
   onClearFilters
 }: FilterControlsProps) => {
-  const hasActiveFilters = searchTerm || selectedCategories.length > 0 || visitedFilter !== 'all';
+  const hasActiveFilters = searchTerm || selectedCategories.length > 0 || selectedPavilionCodes.length > 0 || visitedFilter !== 'all';
 
   return (
     <div className="space-y-4 p-4 bg-card border rounded-lg mb-6">
@@ -84,6 +90,22 @@ export const FilterControls = ({
               onClick={() => onCategoryToggle(category)}
             >
               {category}
+            </Badge>
+          ))}
+        </div>
+      </div>
+      
+      <div className="space-y-2">
+        <div className="text-sm font-medium">Pavilion Codes</div>
+        <div className="flex flex-wrap gap-2">
+          {availablePavilionCodes.map((code) => (
+            <Badge
+              key={code}
+              variant={selectedPavilionCodes.includes(code) ? 'default' : 'outline'}
+              className="cursor-pointer hover:bg-primary/80 transition-colors"
+              onClick={() => onPavilionCodeToggle(code)}
+            >
+              {code}
             </Badge>
           ))}
         </div>
