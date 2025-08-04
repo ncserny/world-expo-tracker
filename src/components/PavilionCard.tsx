@@ -80,18 +80,21 @@ export const PavilionCard = ({ pavilion, onToggleVisited }: PavilionCardProps) =
           
           <div className="flex-1 space-y-2">
             <div className="flex items-start gap-2">
-              {pavilion.category === 'Country' && pavilion.countryCode ? (
-                <div className="flex-shrink-0 flex items-center justify-center mt-0.5">
-                  <span className={`fi fi-${pavilion.countryCode.toLowerCase()} w-5 h-4 rounded shadow-sm`}></span>
-                </div>
-              ) : pavilion.pavilionCode ? (
-                <div className={cn(
-                  'flex-shrink-0 w-6 h-6 rounded text-xs font-bold flex items-center justify-center mt-0.5',
-                  getPavilionCodeColor(pavilion.pavilionCode)
-                )}>
-                  {pavilion.pavilionCode}
-                </div>
-              ) : null}
+              <div className="flex items-center gap-1 mt-0.5">
+                {pavilion.category === 'Country' && pavilion.countryCode && (
+                  <div className="flex-shrink-0 flex items-center justify-center">
+                    <span className={`fi fi-${pavilion.countryCode.toLowerCase()} w-5 h-4 rounded shadow-sm`}></span>
+                  </div>
+                )}
+                {pavilion.pavilionCode && (
+                  <div className={cn(
+                    'flex-shrink-0 w-6 h-6 rounded text-xs font-bold flex items-center justify-center',
+                    getPavilionCodeColor(pavilion.pavilionCode)
+                  )}>
+                    {pavilion.pavilionCode}
+                  </div>
+                )}
+              </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
                   <h3 className={cn(
