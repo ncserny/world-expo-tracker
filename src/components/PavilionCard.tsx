@@ -11,10 +11,7 @@ interface PavilionCardProps {
 }
 
 const getBackgroundColorByCode = (code?: string) => {
-  if (!code) return 'bg-muted border-border';
-  
-  const firstLetter = code.charAt(0);
-  switch (firstLetter) {
+  switch (code) {
     case 'S':
       return 'bg-orange-50 border-orange-200';
     case 'C':
@@ -48,10 +45,7 @@ const getCategoryBadgeColor = (category: PavilionCategory) => {
 };
 
 const getPavilionCodeColor = (code?: string) => {
-  if (!code) return 'bg-gray-500 text-white';
-  
-  const firstLetter = code.charAt(0);
-  switch (firstLetter) {
+  switch (code) {
     case 'S':
       return 'bg-orange-500 text-white';
     case 'C':
@@ -111,7 +105,7 @@ export const PavilionCard = ({ pavilion, onToggleVisited }: PavilionCardProps) =
               </div>
               {pavilion.pavilionCode && (
                 <div className={cn(
-                  'flex-shrink-0 w-6 h-6 rounded text-xs font-bold flex items-center justify-center mt-0.5',
+                  'flex-shrink-0 w-8 h-6 rounded text-xs font-bold flex items-center justify-center mt-0.5',
                   getPavilionCodeColor(pavilion.pavilionCode)
                 )}>
                   {pavilion.pavilionCode}
