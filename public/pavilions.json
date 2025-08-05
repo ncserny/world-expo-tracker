@@ -913,14 +913,6 @@
     "countryCode": "me"
   },
   {
-    "id": "108",
-    "pavilionCode": "C",
-    "pavilion": "Morocco",
-    "category": "Country",
-    "visited": false,
-    "countryCode": "ma"
-  },
-  {
     "id": "109",
     "pavilionCode": "P 08",
     "pavilion": "Mozambique",
