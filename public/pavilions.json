@@ -921,24 +921,6 @@
     "countryCode": "mz"
   },
   {
-    "id": "110",
-    "pavilionCode": "C",
-    "pavilion": "Myanmar",
-    "category": "Country",
-    "visited": false,
-    "location": "Commons B",
-    "countryCode": "mm"
-  },
-  {
-    "id": "111",
-    "pavilionCode": "P",
-    "pavilion": "Namibia",
-    "category": "Country",
-    "visited": false,
-    "location": "Commons A",
-    "countryCode": "na"
-  },
-  {
     "id": "112",
     "pavilionCode": "C 23",
     "pavilion": "Nauru",
