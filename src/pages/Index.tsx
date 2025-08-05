@@ -11,18 +11,21 @@ const Index = () => {
   const { toast } = useToast();
   const { pavilions: pavilionData, loading, error } = usePavilions();
   const [visitedPavilions, setVisitedPavilions] = useLocalStorage<string[]>('visited-pavilions', []);
+  const [watchlistPavilions, setWatchlistPavilions] = useLocalStorage<string[]>('watchlist-pavilions', []);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategories, setSelectedCategories] = useState<PavilionCategory[]>([]);
   const [selectedPavilionCodes, setSelectedPavilionCodes] = useState<string[]>([]);
   const [visitedFilter, setVisitedFilter] = useState<'all' | 'visited' | 'unvisited'>('all');
+  const [watchlistFilter, setWatchlistFilter] = useState<'all' | 'watchlist'>('all');
 
-  // Merge pavilions with visited status from localStorage
+  // Merge pavilions with visited and watchlist status from localStorage
   const pavilions = useMemo(() => {
     return pavilionData.map(pavilion => ({
       ...pavilion,
-      visited: visitedPavilions.includes(pavilion.id)
+      visited: visitedPavilions.includes(pavilion.id),
+      wantToVisit: watchlistPavilions.includes(pavilion.id)
     }));
-  }, [pavilionData, visitedPavilions]);
+  }, [pavilionData, visitedPavilions, watchlistPavilions]);
 
   // Get available pavilion code letters
   const availablePavilionCodes = useMemo(() => {
@@ -45,9 +48,12 @@ const Index = () => {
                             (visitedFilter === 'visited' && pavilion.visited) ||
                             (visitedFilter === 'unvisited' && !pavilion.visited);
       
-      return matchesSearch && matchesCategory && matchesPavilionCode && matchesVisited;
+      const matchesWatchlist = watchlistFilter === 'all' ||
+                              (watchlistFilter === 'watchlist' && pavilion.wantToVisit);
+      
+      return matchesSearch && matchesCategory && matchesPavilionCode && matchesVisited && matchesWatchlist;
     }).sort((a, b) => a.pavilion.localeCompare(b.pavilion));
-  }, [pavilions, searchTerm, selectedCategories, selectedPavilionCodes, visitedFilter]);
+  }, [pavilions, searchTerm, selectedCategories, selectedPavilionCodes, visitedFilter, watchlistFilter]);
 
   // Calculate statistics
   const stats = useMemo(() => {
@@ -103,11 +109,31 @@ const Index = () => {
     );
   };
 
+  const handleToggleWantToVisit = (pavilionId: string) => {
+    const pavilion = pavilions.find(p => p.id === pavilionId);
+    if (!pavilion) return;
+
+    if (watchlistPavilions.includes(pavilionId)) {
+      setWatchlistPavilions(prev => prev.filter(id => id !== pavilionId));
+      toast({
+        title: "Removed from watchlist",
+        description: `${pavilion.pavilion} removed from your watchlist`,
+      });
+    } else {
+      setWatchlistPavilions(prev => [...prev, pavilionId]);
+      toast({
+        title: "Added to watchlist! ❤️",
+        description: `${pavilion.pavilion} added to your watchlist`,
+      });
+    }
+  };
+
   const handleClearFilters = () => {
     setSearchTerm('');
     setSelectedCategories([]);
     setSelectedPavilionCodes([]);
     setVisitedFilter('all');
+    setWatchlistFilter('all');
   };
 
   // Handle loading and error states
@@ -170,6 +196,8 @@ const Index = () => {
           availablePavilionCodes={availablePavilionCodes}
           visitedFilter={visitedFilter}
           onVisitedFilterChange={setVisitedFilter}
+          watchlistFilter={watchlistFilter}
+          onWatchlistFilterChange={setWatchlistFilter}
           onClearFilters={handleClearFilters}
         />
 
@@ -185,6 +213,7 @@ const Index = () => {
               key={pavilion.id}
               pavilion={pavilion}
               onToggleVisited={handleToggleVisited}
+              onToggleWantToVisit={handleToggleWantToVisit}
             />
           ))}
         </div>

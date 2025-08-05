@@ -2,12 +2,13 @@ import { Pavilion, PavilionCategory } from '../types/pavilion';
 import { Card, CardContent } from './ui/card';
 import { Checkbox } from './ui/checkbox';
 import { Badge } from './ui/badge';
-import { MapPin, Clock } from 'lucide-react';
+import { MapPin, Clock, Heart } from 'lucide-react';
 import { cn } from '../lib/utils';
 
 interface PavilionCardProps {
   pavilion: Pavilion;
   onToggleVisited: (id: string) => void;
+  onToggleWantToVisit: (id: string) => void;
 }
 
 const getBackgroundColorByCode = (code?: string) => {
@@ -65,7 +66,7 @@ const getPavilionCodeColor = (code?: string) => {
   }
 };
 
-export const PavilionCard = ({ pavilion, onToggleVisited }: PavilionCardProps) => {
+export const PavilionCard = ({ pavilion, onToggleVisited, onToggleWantToVisit }: PavilionCardProps) => {
   return (
     <Card className={cn(
       'transition-all duration-300 hover:shadow-lg border-2',
@@ -74,11 +75,25 @@ export const PavilionCard = ({ pavilion, onToggleVisited }: PavilionCardProps) =
     )}>
       <CardContent className="p-4">
         <div className="flex items-start gap-3">
-          <Checkbox
-            checked={pavilion.visited}
-            onCheckedChange={() => onToggleVisited(pavilion.id)}
-            className="mt-1 data-[state=checked]:bg-primary data-[state=checked]:border-primary"
-          />
+          <div className="flex flex-col gap-2 mt-1">
+            <Checkbox
+              checked={pavilion.visited}
+              onCheckedChange={() => onToggleVisited(pavilion.id)}
+              className="data-[state=checked]:bg-primary data-[state=checked]:border-primary"
+            />
+            <button
+              onClick={() => onToggleWantToVisit(pavilion.id)}
+              className={cn(
+                'w-5 h-5 flex items-center justify-center rounded transition-colors',
+                pavilion.wantToVisit 
+                  ? 'text-red-500 hover:text-red-600' 
+                  : 'text-muted-foreground hover:text-red-500'
+              )}
+              title={pavilion.wantToVisit ? 'Remove from watchlist' : 'Add to watchlist'}
+            >
+              <Heart className={cn('w-4 h-4', pavilion.wantToVisit && 'fill-current')} />
+            </button>
+          </div>
           
           <div className="flex-1 space-y-2">
             <div className="flex items-start justify-between">

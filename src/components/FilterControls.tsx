@@ -13,6 +13,8 @@ interface FilterControlsProps {
   availablePavilionCodes: string[];
   visitedFilter: 'all' | 'visited' | 'unvisited';
   onVisitedFilterChange: (filter: 'all' | 'visited' | 'unvisited') => void;
+  watchlistFilter: 'all' | 'watchlist';
+  onWatchlistFilterChange: (filter: 'all' | 'watchlist') => void;
   onClearFilters: () => void;
 }
 const categories: PavilionCategory[] = ['Country', 'Signature', 'Private Sector', 'Other'];
@@ -26,9 +28,11 @@ export const FilterControls = ({
   availablePavilionCodes,
   visitedFilter,
   onVisitedFilterChange,
+  watchlistFilter,
+  onWatchlistFilterChange,
   onClearFilters
 }: FilterControlsProps) => {
-  const hasActiveFilters = searchTerm || selectedCategories.length > 0 || selectedPavilionCodes.length > 0 || visitedFilter !== 'all';
+  const hasActiveFilters = searchTerm || selectedCategories.length > 0 || selectedPavilionCodes.length > 0 || visitedFilter !== 'all' || watchlistFilter !== 'all';
   return <div className="space-y-4 p-4 bg-card border rounded-lg mb-6">
       {hasActiveFilters && <div className="flex justify-end">
           <Button variant="ghost" size="sm" onClick={onClearFilters} className="h-auto p-1 text-xs text-muted-foreground hover:text-foreground">
@@ -44,7 +48,7 @@ export const FilterControls = ({
       
       <div className="space-y-2">
         
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           {[{
           value: 'all',
           label: 'All'
@@ -57,6 +61,15 @@ export const FilterControls = ({
         }].map(option => <Button key={option.value} variant={visitedFilter === option.value ? 'default' : 'outline'} size="sm" onClick={() => onVisitedFilterChange(option.value as 'all' | 'visited' | 'unvisited')}>
               {option.label}
             </Button>)}
+          
+          <Button 
+            variant={watchlistFilter === 'watchlist' ? 'default' : 'outline'} 
+            size="sm" 
+            onClick={() => onWatchlistFilterChange(watchlistFilter === 'watchlist' ? 'all' : 'watchlist')}
+            className="bg-red-50 border-red-200 text-red-700 hover:bg-red-100 data-[state=on]:bg-red-500 data-[state=on]:text-white"
+          >
+            ❤️ Watchlist
+          </Button>
         </div>
       </div>
       
