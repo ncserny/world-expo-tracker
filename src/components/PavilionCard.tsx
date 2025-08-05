@@ -69,31 +69,17 @@ const getPavilionCodeColor = (code?: string) => {
 export const PavilionCard = ({ pavilion, onToggleVisited, onToggleWantToVisit }: PavilionCardProps) => {
   return (
     <Card className={cn(
-      'transition-all duration-300 hover:shadow-lg border-2',
+      'transition-all duration-300 hover:shadow-lg border-2 relative',
       getBackgroundColorByCode(pavilion.pavilionCode),
       pavilion.visited && 'opacity-75 scale-[0.98]'
     )}>
       <CardContent className="p-4">
         <div className="flex items-start gap-3">
-          <div className="flex flex-col gap-2 mt-1">
-            <Checkbox
-              checked={pavilion.visited}
-              onCheckedChange={() => onToggleVisited(pavilion.id)}
-              className="data-[state=checked]:bg-primary data-[state=checked]:border-primary"
-            />
-            <button
-              onClick={() => onToggleWantToVisit(pavilion.id)}
-              className={cn(
-                'w-5 h-5 flex items-center justify-center rounded transition-colors',
-                pavilion.wantToVisit 
-                  ? 'text-red-500 hover:text-red-600' 
-                  : 'text-muted-foreground hover:text-red-500'
-              )}
-              title={pavilion.wantToVisit ? 'Remove from watchlist' : 'Add to watchlist'}
-            >
-              <Heart className={cn('w-4 h-4', pavilion.wantToVisit && 'fill-current')} />
-            </button>
-          </div>
+          <Checkbox
+            checked={pavilion.visited}
+            onCheckedChange={() => onToggleVisited(pavilion.id)}
+            className="mt-1 data-[state=checked]:bg-primary data-[state=checked]:border-primary"
+          />
           
           <div className="flex-1 space-y-2">
             <div className="flex items-start justify-between">
@@ -148,6 +134,20 @@ export const PavilionCard = ({ pavilion, onToggleVisited, onToggleWantToVisit }:
             )}
           </div>
         </div>
+        
+        {/* Heart icon positioned at bottom right */}
+        <button
+          onClick={() => onToggleWantToVisit(pavilion.id)}
+          className={cn(
+            'absolute bottom-3 right-3 w-6 h-6 flex items-center justify-center rounded transition-colors',
+            pavilion.wantToVisit 
+              ? 'text-red-500 hover:text-red-600' 
+              : 'text-muted-foreground hover:text-red-500'
+          )}
+          title={pavilion.wantToVisit ? 'Remove from watchlist' : 'Add to watchlist'}
+        >
+          <Heart className={cn('w-4 h-4', pavilion.wantToVisit && 'fill-current')} />
+        </button>
       </CardContent>
     </Card>
   );
