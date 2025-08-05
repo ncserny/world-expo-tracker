@@ -1227,14 +1227,6 @@
     "countryCode": "so"
   },
   {
-    "id": "146",
-    "pavilionCode": "P",
-    "pavilion": "South Africa",
-    "category": "Country",
-    "visited": false,
-    "countryCode": "za"
-  },
-  {
     "id": "147",
     "pavilionCode": "S 14",
     "pavilion": "South Sudan",
@@ -1294,14 +1286,6 @@
     "category": "Country",
     "visited": false,
     "countryCode": "ch"
-  },
-  {
-    "id": "154",
-    "pavilionCode": "C",
-    "pavilion": "Syrian Arab Republic",
-    "category": "Country",
-    "visited": false,
-    "countryCode": "sy"
   },
   {
     "id": "155",
