@@ -938,14 +938,6 @@
     "countryCode": "np"
   },
   {
-    "id": "114",
-    "pavilionCode": "P",
-    "pavilion": "New Zealand",
-    "category": "Country",
-    "visited": false,
-    "countryCode": "nz"
-  },
-  {
     "id": "115",
     "pavilionCode": "S",
     "pavilion": "Nicaragua",
@@ -953,15 +945,6 @@
     "visited": false,
     "location": "Commons D",
     "countryCode": "ni"
-  },
-  {
-    "id": "116",
-    "pavilionCode": "S",
-    "pavilion": "Niger",
-    "category": "Country",
-    "visited": false,
-    "location": "Commons D",
-    "countryCode": "ne"
   },
   {
     "id": "117",
