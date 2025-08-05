@@ -139,7 +139,7 @@ export const PavilionCard = ({ pavilion, onToggleVisited, onToggleWantToVisit }:
         <button
           onClick={() => onToggleWantToVisit(pavilion.id)}
           className={cn(
-            'absolute top-4 right-12 w-6 h-6 flex items-center justify-center rounded transition-colors',
+            'absolute top-4 right-16 w-6 h-6 flex items-center justify-center rounded transition-colors',
             pavilion.wantToVisit 
               ? 'text-red-500 hover:text-red-600' 
               : 'text-muted-foreground hover:text-red-500'
