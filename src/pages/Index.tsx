@@ -6,6 +6,7 @@ import { PavilionCard } from '../components/PavilionCard';
 import { StatsCard } from '../components/StatsCard';
 import { FilterControls } from '../components/FilterControls';
 import { useToast } from '../hooks/use-toast';
+import { Heart } from 'lucide-react';
 
 const Index = () => {
   const { toast } = useToast();
@@ -230,6 +231,23 @@ const Index = () => {
           </div>
         )}
       </div>
+      
+      {/* Footer */}
+      <footer className="mt-16 pb-8">
+        <div className="container mx-auto px-4">
+          <div className="text-center">
+            <a 
+              href="https://nader.io" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Heart className="w-4 h-4 text-red-500" />
+              <span>Tracker by Nader</span>
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
