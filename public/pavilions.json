@@ -1473,13 +1473,6 @@
     "reserve": "reservation needed"
   },
   {
-    "id": "194",
-    "pavilionCode": "W",
-    "pavilion": "Disaster Risk Reduction and Reconstruction Pavilion",
-    "category": "Other",
-    "visited": false
-  },
-  {
     "id": "195",
     "pavilionCode": "P 12",
     "pavilion": "France",
