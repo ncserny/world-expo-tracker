@@ -244,7 +244,7 @@ const Index = () => {
                 className="inline-flex items-center gap-2 hover:text-primary transition-colors"
               >
                 <Heart className="w-4 h-4 text-red-500" />
-                <span>Tracker by Nader</span>
+                <span>by Nader</span>
               </a>
               <span>|</span>
               <a 
