@@ -253,7 +253,7 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
               >
-                X: nadcsr
+                x: nadcsr
               </a>
             </div>
           </div>
