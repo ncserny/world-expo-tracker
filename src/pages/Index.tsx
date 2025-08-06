@@ -233,7 +233,7 @@ const Index = () => {
       </div>
       
       {/* Footer */}
-      <footer className="mt-8 pb-4">
+      <footer className="mt-4 pb-2">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <a 
