@@ -236,15 +236,26 @@ const Index = () => {
       <footer className="mt-4 pb-4">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <a 
-              href="https://nader.io" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Heart className="w-4 h-4 text-red-500" />
-              <span>Tracker by Nader</span>
-            </a>
+            <div className="inline-flex items-center gap-2 text-muted-foreground">
+              <a 
+                href="https://nader.io" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 hover:text-primary transition-colors"
+              >
+                <Heart className="w-4 h-4 text-red-500" />
+                <span>Tracker by Nader</span>
+              </a>
+              <span>|</span>
+              <a 
+                href="https://x.com/nadcsr" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors"
+              >
+                X: nadcsr
+              </a>
+            </div>
           </div>
         </div>
       </footer>
