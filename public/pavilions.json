@@ -1603,5 +1603,45 @@
     "pavilion": "Dialogue Theater - sign of life",
     "category": "Signature",
     "visited": false
+  },
+  {
+    "id": "212",
+    "pavilionCode": "L02",
+    "pavilion": "Future Life Experience",
+    "category": "Future Life Zone",
+    "visited": false,
+    "zone": "B-1"
+  },
+  {
+    "id": "213",
+    "pavilionCode": "L03",
+    "pavilion": "TEAM EXPO Pavilion",
+    "category": "Future Life Zone",
+    "visited": false,
+    "zone": "A-1"
+  },
+  {
+    "id": "214",
+    "pavilionCode": "L04",
+    "pavilion": "Mobility Experience",
+    "category": "Future Life Zone",
+    "visited": false,
+    "zone": "B-1"
+  },
+  {
+    "id": "215",
+    "pavilionCode": "L05",
+    "pavilion": "Future City",
+    "category": "Future Life Zone",
+    "visited": false,
+    "zone": "A-1"
+  },
+  {
+    "id": "216",
+    "pavilionCode": "L07",
+    "pavilion": "Junior SDGs Camp",
+    "category": "Future Life Zone",
+    "visited": false,
+    "zone": "A-2"
   }
 ]

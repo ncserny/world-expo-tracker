@@ -41,6 +41,7 @@ All colors MUST be HSL.
     --expo-signature: 280 65% 85%;
     --expo-private: 120 60% 85%;
     --expo-other: 40 85% 85%;
+    --expo-future-life: 120 80% 90%;
     
     /* Gradients */
     --gradient-expo: linear-gradient(135deg, hsl(220, 91%, 56%), hsl(260, 85%, 65%));
