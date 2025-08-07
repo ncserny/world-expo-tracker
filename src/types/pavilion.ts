@@ -4,7 +4,7 @@ export interface Pavilion {
   pavilion: string;
   location?: string;
   reserve?: string;
-  category: 'Country' | 'Signature' | 'Private Sector' | 'Other';
+  category: 'Country' | 'Signature' | 'Private Sector' | 'Other' | 'Future Life Zone';
   visited: boolean;
   wantToVisit: boolean;
   countryCode?: string; // ISO 3166-1 alpha-2 country code for flags

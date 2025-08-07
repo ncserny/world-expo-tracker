@@ -30,7 +30,7 @@ const Index = () => {
 
   // Get available pavilion code letters
   const availablePavilionCodes = useMemo(() => {
-    return ["C", "E", "P", "S", "W", "X"];
+    return ["C", "E", "L", "P", "S", "W", "X"];
   }, []);
 
   // Filter and sort pavilions based on search and filters

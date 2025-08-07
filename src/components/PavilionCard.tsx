@@ -20,6 +20,8 @@ const getBackgroundColorByCode = (code?: string) => {
       return 'bg-cyan-50 border-cyan-200';
     case 'E':
       return 'bg-red-50 border-red-200';
+    case 'L':
+      return 'bg-[hsl(var(--expo-future-life))] border-[hsl(120_80%_75%)]';
     case 'P':
       return 'bg-green-50 border-green-200';
     case 'W':
@@ -39,6 +41,8 @@ const getCategoryBadgeColor = (category: PavilionCategory) => {
       return 'bg-purple-100 text-purple-800 hover:bg-purple-200';
     case 'Private Sector':
       return 'bg-green-100 text-green-800 hover:bg-green-200';
+    case 'Future Life Zone':
+      return 'bg-[hsl(120_80%_85%)] text-[hsl(120_80%_25%)] hover:bg-[hsl(120_80%_80%)]';
     case 'Other':
       return 'bg-orange-100 text-orange-800 hover:bg-orange-200';
     default:
@@ -55,6 +59,8 @@ const getPavilionCodeColor = (code?: string) => {
       return 'bg-cyan-500 text-white';
     case 'E':
       return 'bg-red-500 text-white';
+    case 'L':
+      return 'bg-[hsl(120_80%_50%)] text-white';
     case 'P':
       return 'bg-green-500 text-white';
     case 'W':
