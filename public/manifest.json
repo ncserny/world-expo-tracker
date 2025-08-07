@@ -1,0 +1,18 @@
+{
+  "name": "World Expo 2025 Pavilions Tracker",
+  "short_name": "Expo Tracker",
+  "description": "Track your journey through all the amazing pavilions at World Expo in Osaka, Japan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
